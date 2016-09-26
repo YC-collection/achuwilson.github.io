@@ -1,0 +1,91 @@
+ICRA - may16-21
+back in ekm 26 may
+Nair left sastra may31
+dinner athotel near vytila june 2
+June 3 prince birthday
+June6 - trip with melvin to chennai -bangalore
+june 18- back at cochin
+june 23 bibin birthday
+june26 - verified pwm of faulhaber in cro
+june27 - 3d print of coil holder and rod
+june 28 - calculating current &commutation
+june30 coil winding
+july 1 - rubber seal based tube
+july3 - multi touch zoom,- first work
+july 3 - bharannaganam trip
+july 14 bangalore trip at bosch
+july 16 pics with carol at home
+july 18 bosch cbe - fried faulhaber
+july  25 multi tocu final
+Aug 4: aluminum rod + 3 d print+ aluminum shaft
+Aug 7 -8 9hyderabad trip
+Aug 16-18-19- Chennai MRV
+Aug 29 Faulhaber based jumping 
+Aug 30: 3 d print of MR clutch, coil winding
+sept 7- wiring of MR clutch
+sept 8: working MR clutch
+
+
+
+
+ICRA - may16-21
+back in ekm 26 may, began skimming through the ICRA pendrive
+	Compliant mechanisms for bram
+	Study about direct drive actuators - Asada
+june 6-18 trip
+	reading, thinking...
+June 18
+	linear direct drive actuator - animals - linear muscles
+	FEM, CAD model, pr
+June 27- 
+	3d print
+June 30 
+	winding coils
+July 3-5- 
+	electronics done, no commutation, bare & primitive control software -first move
+July 10:
+	FEM for aluminum rod, design changes, purchase rod
+July 14-20
+	Bosch Blr and CBE
+	study , refer, think
+July 22- 24:
+	Aluminum rod + 3D print+ coil winding
+July 25- Aug4
+	Realization that this wont be complete soon. I need to do the commutation, impedance and dampng controllers in software etc etc.. Then I have to machine it sturdy to that cheeta can jump etc
+	Thinking to use Off the shelf Faulhaber motor- studing its characteristics, developing controllers.
+ AUg 5-9 
+	Hyderabad trip
+Aug 10-16
+	Mech Design of the system,material purchase,  Fabrication, electronics
+	Fail 2
+Aug 16-22
+	Chennai Trip
+	 daily commute of 70 kms one way, total commute of 140 kms 3.5-4 hours *2 in crowded, sweaty trains. read read read... ICRA pendrive 
+	Eureka moment- MR actuators
+Aug 23-26, 
+	study of MR fluids, theory, characterization, yeild point etc. FEM simulation of my idea, 
+Aug 28
+	Prototyped MR Fluid
+Aug 30:
+	Design complete, 3D print finished
+Sept -4 
+	MAterials purchased, Bearings, rod, coil winded, 
+Sept 6 
+	Assembled the clutch- testing- characterising of clutch
+sept 8: 
+	design, assembly of robot arm
+Sept 9, 10, 
+	experiments, final results
+Sept 10-15 
+	writing paper
+Sept 16: 
+	upload video
+
+
+
+
+
+
+
+
+
