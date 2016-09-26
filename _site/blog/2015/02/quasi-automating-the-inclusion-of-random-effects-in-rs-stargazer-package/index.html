@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>(Quasi)-automating the Inclusion of Random Effects in R's Stargazer Package | Achu Wilson</title>
+  <meta name="description" content="I wish the stargazer package in R would automatically generate random effect statistics from the lme4 package. Here's a backward way to get those and include them in stargazer output.   ">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://achuwilson.github.io//blog/2015/02/quasi-automating-the-inclusion-of-random-effects-in-rs-stargazer-package/">
+  <link rel="alternate" type="application/rss+xml" title="Achu Wilson" href="http://achuwilson.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Achu Wilson</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+     <li><a href="/projects/" class="page-link">Projects</a>
+    
+    </li>
+    
+    
+     <li><a href="/miscellany/" class="page-link">Miscellany</a>
+    
+    </li>
+    
+    </ul>
+
+
+<!-- <ul class="menu">
+        <li> <a class="page-link" href="/about">About</a></li>
+        <li> <a class="page-link"  href="/blog">Blog</a>
+        <li> <a class="page-link" href="/blog">CV</a>
+        <li> <a class="page-link" href="/blog">For Students</a></li>
+        <li> <a class="page-link"  href="/blog">Research</a></a>
+        <li> <a class="page-link" href="/blog">Teaching</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">POSC 1020 – Introduction to International Relations</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">POSC 3410 – Quantitative Methods in Political Science</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">POSC 3610 – International Politics in Crisis</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3630-united-states-foreign-policy/">POSC 3630 – United States Foreign Policy</a></li>
+</ul></li>
+        <li> <a class="page-link" href="/blog">Miscellany</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">Clean USAID Greenbook Data</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">Journal of Peace Research *.bst File</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">My Custom Beamer Style</a></li>
+</ul> 
+
+</li>
+</ul> -->
+
+     </div>  
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">(Quasi)-automating the Inclusion of Random Effects in R's Stargazer Package</h1>
+    <p class="post-meta">Posted on February 7, 2015 by  steve  
+
+  in
+  
+  <a href="/categories/#R" title="R">R</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <!--more-->
+
+<p><a href="http://cran.r-project.org/web/packages/stargazer/index.html">stargazer</a> is a godsend for those of us who look for seamless ways to manage the execution and presentation of our statistical analyses. LaTeX, for all its strengths, inconveniences users who need to manually create tables. Doing this for peer-reviewed scholarship can be a perilous process, greatly increasing the probability of human error in the presentation of the results. The stargazer package, as all useful packages do, automates that and makes it the job of R to render the regression table. It also handles <code class="highlighter-rouge">lmer</code> output, which is fantastic for those of us who estimate mixed effects models as models of choice.</p>
+
+<p>However, one limitation of the stargazer package is that it ultimately processes <code class="highlighter-rouge">lmer</code> output no different than it would handle a standard linear model or generalized linear model. It reports only the fixed effects of the model, even though the whole point of mixed effects models is that they contain important quantities of interest known as random effects. When these models are estimated, these parameters should be communicated in the regression table as well. In most standard models, following discussion in the likes of Andrew Gelman and Jennifer Hill’s book, these quantities of interest are typically just the number of unique observations in the random effect (i.e. “the number of groups”) and the standard deviation of the random effect. This second quantity of interest, which is standard output from an <code class="highlighter-rouge">lmer</code> model, communicates the variation in the group intercepts left unexplained after the fixed effects of the model are estimated.</p>
+
+<p>Normally, the analyst can just manually insert these into the <code class="highlighter-rouge">stargazer</code> output. However, with some effort, this can be automated as well. This assumes that LaTeX is the output the researcher wants and the researcher is proficient in LaTeX tags.</p>
+
+<p>I illustrate this process below using the <code class="highlighter-rouge">cake</code> data that comes with the <code class="highlighter-rouge">lme4</code> package. First, let’s understand the data. The <code class="highlighter-rouge">lme4</code> <a href="http://cran.r-project.org/web/packages/lme4/lme4.pdf">reference manual</a> describes the cake data set as follows.</p>
+
+<blockquote>
+  <p>Data on the breakage angle of chocolate cakes made with three different recipes and baked at six different temperatures. This is a split-plot design with the recipes being whole-units at the different temperatures being applied to sub-units (within replicates). The experimental notes suggest that the replicate numbering represents temporal ordering.</p>
+</blockquote>
+
+<p>The substance of the experiment is beyond the expertise of the political scientist, though I heard “cake” and “data” and that’s all I needed to hear. We’ll be estimating the outcome variable (<code class="highlighter-rouge">angle</code>) as a function of the temperature at which it was cooked. The first model will be the temperature as a continuous variable. The second model will break the temperature variable into ordered factors, leaving the (&lt; 175) category as the baseline comparison.</p>
+
+<p>We’ll also estimate two random effects for each model. The first random effect will be each unique combination of the replicate variable (a factor variable with 15 different values) and the recipe variable (which was three, described earlier). All told, there are 45 different values in the first random effect (i.e. 15*3 = 45). The second random effect will be just the replicate variable.</p>
+
+<p>Let’s get started in R, loading the two required packages for this exercise and the data to be used.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">lme4</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">stargazer</span><span class="p">)</span>
+<span class="n">data</span><span class="p">(</span><span class="n">cake</span><span class="p">)</span></code></pre></figure>
+
+<p>Let’s also load in a manual function that will allow us to insert new rows at various points in a data frame.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">insertrow</span> <span class="o">&lt;-</span> <span class="k">function</span><span class="p">(</span><span class="n">existingDF</span><span class="p">,</span> <span class="n">newrow</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+ <span class="n">existingDF</span><span class="p">[</span><span class="n">seq</span><span class="p">(</span><span class="n">r</span><span class="m">+1</span><span class="p">,</span><span class="n">nrow</span><span class="p">(</span><span class="n">existingDF</span><span class="p">)</span><span class="m">+1</span><span class="p">),]</span> <span class="o">&lt;-</span> <span class="n">existingDF</span><span class="p">[</span><span class="n">seq</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="n">nrow</span><span class="p">(</span><span class="n">existingDF</span><span class="p">)),]</span>
+ <span class="n">existingDF</span><span class="p">[</span><span class="n">r</span><span class="p">,]</span> <span class="o">&lt;-</span> <span class="n">newrow</span>
+ <span class="n">existingDF</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>This is a simple function and its use will be seen in clearer detail soon.</p>
+
+<p>Next, let’s estimate and get summaries of our two models.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">summary</span><span class="p">(</span><span class="n">M1</span> <span class="o">&lt;-</span> <span class="n">lmer</span><span class="p">(</span><span class="n">angle</span> <span class="o">~</span> <span class="n">temp</span> <span class="o">+</span> <span class="p">(</span><span class="m">1</span> <span class="o">|</span> <span class="n">replicate</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="m">1</span><span class="o">|</span><span class="n">recipe</span><span class="o">:</span><span class="n">replicate</span><span class="p">),</span> <span class="n">cake</span><span class="p">,</span> <span class="n">REML</span><span class="o">=</span> <span class="n">FALSE</span><span class="p">))</span>
+
+<span class="n">summary</span><span class="p">(</span><span class="n">M2</span> <span class="o">&lt;-</span> <span class="n">lmer</span><span class="p">(</span><span class="n">angle</span> <span class="o">~</span> <span class="n">factor</span><span class="p">(</span><span class="n">temperature</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="m">1</span> <span class="o">|</span> <span class="n">replicate</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="m">1</span><span class="o">|</span><span class="n">recipe</span><span class="o">:</span><span class="n">replicate</span><span class="p">),</span> <span class="n">cake</span><span class="p">,</span> <span class="n">REML</span><span class="o">=</span> <span class="n">FALSE</span><span class="p">))</span></code></pre></figure>
+
+<p>Next, let’s use the <code class="highlighter-rouge">stargazer</code> command to create the broad template for our table. I keep it simple in this <code class="highlighter-rouge">stargazer</code> call, just eliminating the dependent variable label and providing labels for the covariates. Do consult <a href="http://jakeruss.com/posts/A-Stargazer-Cheatsheet/">Jake Russ’ quite handy cheatsheet</a> for stargazer if you want to know more about how to master this package.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">stargazer</span><span class="p">(</span><span class="n">M1</span><span class="p">,</span> <span class="n">M2</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"ajps"</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">"An Illustrative Model Using Cake Data"</span><span class="p">,</span> <span class="n">dep.var.labels.include</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">,</span> 
+ <span class="n">covariate.labels</span><span class="o">=</span><span class="n">c</span><span class="p">(</span> <span class="s2">"Temperature (Continuous)"</span><span class="p">,</span> <span class="s2">"Temperature (Factor $&lt;$ 185)"</span><span class="p">,</span> <span class="s2">"Temperature (Factor $&lt;$ 195)"</span><span class="p">,</span> <span class="s2">"Temperature (Factor $&lt;$ 205)"</span><span class="p">,</span> <span class="s2">"Temperature (Factor $&lt;$ 215)"</span><span class="p">,</span> <span class="s2">"Temperature (Factor $&lt;$ 225)"</span><span class="p">)</span>
+<span class="p">)</span></code></pre></figure>
+
+<p>Now, let’s convert this new object that we titled <code class="highlighter-rouge">Tables</code> as a data.frame and coerce the one vector in it (also called <code class="highlighter-rouge">Tables</code>) into a character.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">as.data.frame</span><span class="p">(</span><span class="n">Tables</span><span class="p">)</span>
+<span class="n">Tables</span><span class="o">$</span><span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">as.character</span><span class="p">(</span><span class="n">Tables</span><span class="o">$</span><span class="n">Tables</span><span class="p">)</span>
+<span class="n">Tables</span></code></pre></figure>
+
+<p>Manually spit out the object (i.e. the Tables call) to see where you want to insert the information about the random effects. This is typically done above the model fit information and after the last row of standard errors for the fixed effects. In this case, I see I’m starting at row 25. Make a note of it as follows.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1"># Find where you want to put in the random effect. In our case, this is right after the last fixed effect. Line: 25.
+</span>
+<span class="n">r</span> <span class="o">&lt;-</span> <span class="m">25</span></code></pre></figure>
+
+<p>This will be placeholder information and it’s useful to keep a note of it. Next, create some standard rows you’ll want to add. You can do this in R.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">randomeffect</span> <span class="o">&lt;-</span> <span class="s2">"{\\bf Random Effect} &amp; &amp; \\\\"</span>
+<span class="n">hline</span> <span class="o">&lt;-</span> <span class="s2">"\\hline"</span>
+<span class="n">newline</span> <span class="o">&lt;-</span> <span class="s2">"\\\\"</span></code></pre></figure>
+
+<p>Recall that characters in R that include backslashes should be preceded by an additional backslash. This is why you see double the normal backslashes for LaTeX tags.</p>
+
+<p>Now, starting at row 25 in that Tables object, let’s add a horizontal line, a row partitioning the random effect information to follow, and another horizontal line.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span> <span class="n">hline</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">randomeffect</span><span class="p">,</span><span class="n">r</span><span class="m">+1</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">hline</span><span class="p">,</span><span class="n">r</span><span class="m">+2</span><span class="p">)</span></code></pre></figure>
+
+<p>Notice this is where we start using the <code class="highlighter-rouge">insertrow</code> function we outlined earlier. This function identifies a table data.frame (here: <code class="highlighter-rouge">Tables</code>). Then, it inserts a row of whatever you want (e.g. <code class="highlighter-rouge">hline</code>, <code class="highlighter-rouge">randomeffect</code>) at starting point <code class="highlighter-rouge">r</code> (which we specified earlier as row 25). It pushes everything else from the row number identified down one spot.</p>
+
+<p>The next step is to know the order of your random effect groupings. Generally, I think “last comes first” is how <code class="highlighter-rouge">lme4</code> stores <code class="highlighter-rouge">lmer</code> output. The first random effect specified in the <code class="highlighter-rouge">lmer</code> call is the last random effect stored in the <code class="highlighter-rouge">lmer</code> output. Therefore, the <code class="highlighter-rouge">recipe:replicate</code> combination is the first random effect and the <code class="highlighter-rouge">replicate</code> random effect comes second. Let’s get the number of unique values in each of the groupings.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">num.recipe.replicate</span> <span class="o">&lt;-</span> <span class="n">sapply</span><span class="p">(</span><span class="n">ranef</span><span class="p">(</span><span class="n">M1</span><span class="p">),</span><span class="n">nrow</span><span class="p">)[</span><span class="m">1</span><span class="p">]</span>
+<span class="n">num.replicate</span> <span class="o">&lt;-</span> <span class="n">sapply</span><span class="p">(</span><span class="n">ranef</span><span class="p">(</span><span class="n">M1</span><span class="p">),</span><span class="n">nrow</span><span class="p">)[</span><span class="m">2</span><span class="p">]</span></code></pre></figure>
+
+<p>If you were to just run those commands without storing the output, you’d see the integers are 45 and 15 respectively. They don’t vary (in our case) from the first model to the second. If they do, grab them from the second model and store them as another output in your R environment.</p>
+
+<p>Next, let’s get the standard deviation of the random effect, which communicates the amount of variation among the different groupings left unexplained after the estimation of the fixed effects in the model. Look careful at how this information can be extracted from <code class="highlighter-rouge">lmer</code> output.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">stddev.M1.recipe.replicate</span> <span class="o">&lt;-</span> <span class="n">attributes</span><span class="p">(</span><span class="n">VarCorr</span><span class="p">(</span><span class="n">M1</span><span class="p">)</span><span class="o">$</span><span class="s2">"recipe:replicate"</span><span class="p">)</span><span class="o">$</span><span class="n">stddev</span>
+
+<span class="n">stddev.M1.replicate</span> <span class="o">&lt;-</span> <span class="n">attributes</span><span class="p">(</span><span class="n">VarCorr</span><span class="p">(</span><span class="n">M1</span><span class="p">)</span><span class="o">$</span><span class="n">replicate</span><span class="p">)</span><span class="o">$</span><span class="n">stddev</span>
+
+<span class="n">stddev.M2.recipe.replicate</span> <span class="o">&lt;-</span> <span class="n">attributes</span><span class="p">(</span><span class="n">VarCorr</span><span class="p">(</span><span class="n">M2</span><span class="p">)</span><span class="o">$</span><span class="s2">"recipe:replicate"</span><span class="p">)</span><span class="o">$</span><span class="n">stddev</span>
+
+<span class="n">stddev.M2.replicate</span> <span class="o">&lt;-</span> <span class="n">attributes</span><span class="p">(</span><span class="n">VarCorr</span><span class="p">(</span><span class="n">M2</span><span class="p">)</span><span class="o">$</span><span class="n">replicate</span><span class="p">)</span><span class="o">$</span><span class="n">stddev</span></code></pre></figure>
+
+<p>Now, we’re going to use the <code class="highlighter-rouge">paste</code> function to create a free-floating character row. Notice that anything in quotes will be passed as a character into the assigned output. You can “pause” this by closing a quote, adding a comma, and assigning an R object. Follow it with a comma and resume with characters in quotes.</p>
+
+<p>Some important notes about what’s happening here. Since we have just two models we’re including, we need just two ampersands to separate the quantities of Model 1 from Model 2. Further, since this is LaTeX output we’re wanting, make sure you close with four backslashes. Observe.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">number.of.recipe.replicate</span> <span class="o">&lt;-</span> <span class="n">paste</span><span class="p">(</span><span class="s2">"\\# of Recipe:Replicate &amp; "</span><span class="p">,</span> <span class="n">num.recipe.replicate</span><span class="p">,</span> <span class="s2">"&amp;"</span><span class="p">,</span> <span class="n">num.recipe.replicate</span><span class="p">,</span> <span class="s2">"\\\\"</span><span class="p">)</span>
+
+<span class="n">stddev.recipe.replicate</span> <span class="o">&lt;-</span> <span class="n">paste</span><span class="p">(</span><span class="s2">"Recipe:Replicate Standard Deviation &amp; "</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">stddev.M1.recipe.replicate</span><span class="p">,</span> <span class="m">3</span><span class="p">),</span> <span class="s2">"&amp;"</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">stddev.M2.recipe.replicate</span><span class="p">,</span> <span class="m">3</span><span class="p">),</span> <span class="s2">"\\\\"</span><span class="p">)</span></code></pre></figure>
+
+<p>Let’s see what this did.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="o">&gt;</span> <span class="n">number.of.recipe.replicate</span>
+<span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="s2">"\\# of Recipe:Replicate &amp; 45 &amp; 45 \\\\"</span>
+
+<span class="o">&gt;</span> <span class="n">stddev.recipe.replicate</span>
+<span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="s2">"Recipe:Replicate Standard Deviation &amp; 1.993 &amp; 2.018 \\\\"</span></code></pre></figure>
+
+<p>This is glorified LaTeX output, stored as a character in R.</p>
+
+<p>Now, let’s do the same for the information about the random effects for the second model.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">number.of.replicate</span> <span class="o">&lt;-</span><span class="n">paste</span><span class="p">(</span><span class="s2">"\\# of Replicate &amp; "</span><span class="p">,</span> <span class="n">num.replicate</span><span class="p">,</span> <span class="s2">"&amp;"</span><span class="p">,</span> <span class="n">num.replicate</span><span class="p">,</span> <span class="s2">"\\\\"</span><span class="p">)</span>
+
+<span class="n">stddev.replicate</span> <span class="o">&lt;-</span> <span class="n">paste</span><span class="p">(</span><span class="s2">"Replicate Standard Deviation &amp; "</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">stddev.M1.replicate</span><span class="p">,</span> <span class="m">3</span><span class="p">),</span> <span class="s2">"&amp;"</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">stddev.M2.replicate</span><span class="p">,</span> <span class="m">3</span><span class="p">),</span> <span class="s2">"\\\\"</span><span class="p">)</span></code></pre></figure>
+
+<p>Here’s the fun part. Let’s add them all together now with our <code class="highlighter-rouge">insertrow</code> function.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">number.of.recipe.replicate</span><span class="p">,</span><span class="n">r</span><span class="m">+3</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">stddev.recipe.replicate</span><span class="p">,</span><span class="n">r</span><span class="m">+4</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">newline</span><span class="p">,</span><span class="n">r</span><span class="m">+5</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">number.of.replicate</span><span class="p">,</span><span class="n">r</span><span class="m">+6</span><span class="p">)</span>
+<span class="n">Tables</span> <span class="o">&lt;-</span> <span class="n">insertrow</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">stddev.replicate</span><span class="p">,</span><span class="n">r</span><span class="m">+7</span><span class="p">)</span></code></pre></figure>
+
+<p>Save as if it were a table, but give it a .tex extension. Use these options to make sure you don’t get row names, column names, or quotes around the characters.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">write.table</span><span class="p">(</span><span class="n">Tables</span><span class="p">,</span><span class="n">file</span><span class="o">=</span><span class="s2">"tables.tex"</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">""</span><span class="p">,</span><span class="n">row.names</span><span class="o">=</span> <span class="n">FALSE</span><span class="p">,</span><span class="n">na</span><span class="o">=</span><span class="s2">""</span><span class="p">,</span> <span class="n">quote</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">col.names</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span></code></pre></figure>
+
+<p>Assuming you have a LaTeX/R workflow setup where you could immediately render your LaTeX document with your new table, you’ll get output like this.</p>
+
+<dl class="wp-caption aligncenter" style="max-width: 594px">
+
+<dt><a href=""><img class="" src="/images/table-cake.png" alt="LaTeX table made and modified in R." /></a></dt>
+
+<dd>LaTeX table made and modified in R.</dd>
+</dl>
+
+<p>If you’re proficient with LaTeX, this will look at lot more intuitive. It is a convoluted way to automate this process, though the payoff comes later in the analysis process when different tweaks are made and time is saved from having to manually re-enter random effects into the regression table. It would be fantastic if the <code class="highlighter-rouge">stargazer</code> package could do this automatically. Until then, here is a way to quasi-automate the inclusion of random effects into <code class="highlighter-rouge">stargazer</code> output.</p>
+
+<p>Code for this exercise will be made available at my <a href="http://github.com/svmiller">Github</a> page.</p>
+
+
+  </article>
+
+<div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'achuwilson';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script id="dsq-count-scr" src="//achuwilson.disqus.com/count.js" async></script>
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Achu Wilson</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Achu Wilson</strong></li>
+		<!--	<li>Assistant Professor</li> -->
+          <li><a href="mailto:achuwilson@gmail.com">achuwilson@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/achuwilson">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">achuwilson</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/achuwilson">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">achuwilson</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <!-- <p class="text">
+		Department of Political Science<br />
+		232 Brackett Hall<br />
+		Clemson, SC 29634-1354</p> <!-- I'm a political scientist at Clemson University with research interests in international conflict and political behavior. Topics on my site include my teaching interests, R, LaTeX, and professional development.
+ -->
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-37298398-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
+

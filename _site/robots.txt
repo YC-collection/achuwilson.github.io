@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://achuwilson.github.io/sitemap.xml

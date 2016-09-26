@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>An R Markdown Template for Academic Manuscripts | Achu Wilson</title>
+  <meta name="description" content="I have a series of templates for R Markdown. Here's one for academic manuscripts. I offer a guide on how to use it.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://achuwilson.github.io//blog/2016/02/svm-r-markdown-manuscript/">
+  <link rel="alternate" type="application/rss+xml" title="Achu Wilson" href="http://achuwilson.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Achu Wilson</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+     <li><a href="/projects/" class="page-link">Projects</a>
+    
+    </li>
+    
+    
+     <li><a href="/miscellany/" class="page-link">Miscellany</a>
+    
+    </li>
+    
+    </ul>
+
+
+<!-- <ul class="menu">
+        <li> <a class="page-link" href="/about">About</a></li>
+        <li> <a class="page-link"  href="/blog">Blog</a>
+        <li> <a class="page-link" href="/blog">CV</a>
+        <li> <a class="page-link" href="/blog">For Students</a></li>
+        <li> <a class="page-link"  href="/blog">Research</a></a>
+        <li> <a class="page-link" href="/blog">Teaching</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">POSC 1020 – Introduction to International Relations</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">POSC 3410 – Quantitative Methods in Political Science</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">POSC 3610 – International Politics in Crisis</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3630-united-states-foreign-policy/">POSC 3630 – United States Foreign Policy</a></li>
+</ul></li>
+        <li> <a class="page-link" href="/blog">Miscellany</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">Clean USAID Greenbook Data</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">Journal of Peace Research *.bst File</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">My Custom Beamer Style</a></li>
+</ul> 
+
+</li>
+</ul> -->
+
+     </div>  
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">An R Markdown Template for Academic Manuscripts</h1>
+    <p class="post-meta">Posted on February 10, 2016 by  steve  
+
+  in
+  
+  <a href="/categories/#R Markdown" title="R Markdown">R Markdown</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <dl class="wp-caption alignright" style="max-width: 450px">
+
+<dt><a href=""><img class="" src="/images/rmarkdown-academic.png" alt="The frontmatter to an R Markdown document." /></a></dt>
+
+<dd>The frontmatter to an R Markdown document.</dd>
+</dl>
+
+<p>You should consider no longer using LaTeX as a front-end for your manuscripts. Use a wrapper for LaTeX instead, like <a href="http://rmarkdown.rstudio.com/">R Markdown</a>.</p>
+
+<p>I’ve discussed <a href="http://svmiller.com/blog/2015/02/moving-from-beamer-to-r-markdown/">a previous move from LaTeX’ Beamer package to R Markdown</a>, but was otherwise deferential to standard LaTeX for documents. However, <a href="http://www-rohan.sdsu.edu/~aty/bibliog/latex/gripe.html">LaTeX is <em>ugly</em> code</a>. My manuscripts were also succumbing to “preamble <a href="https://en.wikipedia.org/wiki/Feature_creep">creep</a>”. My preambles kept getting bigger and messier with each successive manuscript. Standard LaTeX also can’t speak to R. A manuscript may require a careful and manual rewrite of the manuscript to better conform to the changes in the analysis.</p>
+
+<p>I’ve started writing all my manuscripts now in R Markdown, which eliminates both markup (hence: “Markdown”) and allows me to better work with collaborators. In what follows, I discuss the properties of a template I wrote to render my PDFs and how LaTeX users could incorporate it into their own research workflow. I start with the YAML properties of my template and then discuss some basic Markdown syntax. I show what my Markdown academic manuscript template resembles in a full PDF thereafter. This PDF mirrors the post here but contains an extended discussion at the beginning of what R Markdown can do for issues of workflow. The PDF also contains examples how to execute R within the Markdown document. This type of “dynamic document” allows for the author to write the manuscript and reproduce the analysis in one fell swoop.</p>
+
+<p>You can find the example .Rmd file, the example PDF, and my academic manuscript template on <a href="https://github.com/svmiller">my Github</a> at <a href="https://github.com/svmiller/svm-r-markdown-templates">this repository</a>.</p>
+
+<!-- Academic workflow, certainly in political science, is at a crossroads. The *American Journal of Political Science* (*AJPS*) announced a (my words) ["show your work" initiative](http://ajps.org/2015/03/26/the-ajps-replication-policy-innovations-and-revisions/) in which authors who are tentatively accepted for publication at the journal must hand over the raw code and data that produced the results shown in the manuscript. The editorial team at *AJPS* then reproduces the code from the manuscript. Pending successful replication, the manuscript moves toward publication. The *AJPS* might be at the fore of this movement, and it could be the most aggressive among political science journals, but other journals in our field have signed the joint [Data Access & Research Transparency](http://www.dartstatement.org/) (DART) initiative. This, at a bare minimum, requires uploading code from quantitatively-oriented published articles to in-house directories hosted by the journal or to services like [Dataverse](http://dataverse.org/). 
+
+There are workflow implications to the Lacour controversy as well. Political science, for the foreseeable future, will struggle with the extent of [the data fraud perpetrated by Michael Lacour](http://stanford.edu/~dbroock/broockman_kalla_aronow_lg_irregularities.pdf) in an article co-authored with Donald P. Green in *Science*, the general scientific journal of record in the United States. A failure to reproduce LaCour's results with different samples uncovered a comprehensive effort by LaCour to "fake" data that provided results to what we felt or believed to be true [(i.e. "truthiness")](http://chronicle.com/article/LAffaire-LaCour/230905/). However, [fake data can have real consequences](http://kieranhealy.org/blog/archives/2015/05/20/fake-science-real-consequences/) for both the researcher and those who want to learn from it and use it for various purposes. Even research done honestly may suffer the same fate if researchers are not diligent in their workflow.
+
+These recent events underscore the DART push and cast a shadow over our workflow. However, good workflow has always been an issue in our discipline. Cloud storage services like [Dropbox](http://www.dropbox.com) are still relatively new among political scientists. Without cloud storage, previous workflow left open the possibility that work between a home computer and an office computer was lost as a function of a corrupted thumb drive, an overheated power supply, or, among other things, the wave of viruses that [would particularly affect Microsoft users every summer](http://money.cnn.com/2003/11/05/technology/microsoftbounty/). Social sciences, [unlike engineering](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/), have traditionally relied on software like Microsoft Word for manuscript preparation though any word processor reduces workflow to a series of clicks and strokes on a keyboard. This is [a terrible way to track changes](http://www.nytimes.com/2013/04/19/opinion/krugman-the-excel-depression.html) or maintain version control. The addition of collaborators only compounds all the aforementioned issues. The proverbial left hand may not know what the right hand is doing.
+
+I think there is reason for optimism. We only struggle with it now because we have tools like [R Markdown](http://rmarkdown.rstudio.com/) and [Pandoc](http://pandoc.org/), more generally, that make significant strides in workflow. LaTeX resolved earlier issues of corrupted binary files by reducing documents to raw markup that was little more than raw text and revisions that could be easily kept as ["commented" text](http://tex.stackexchange.com/questions/11177/how-to-write-hidden-notes-in-a-latex-file). However, for all its benefits (including pretty PDFs), [LaTeX is *ugly* code](http://www-rohan.sdsu.edu/~aty/bibliog/latex/gripe.html) and does not provide means of seamlessly working with the actual data analysis itself. R Markdown both eliminates markup and allows the author and her collaborators to write and reproduce the manuscript in one fell swoop. -->
+
+<h2 id="getting-started-with-yaml">Getting Started with YAML</h2>
+
+<p>The lion’s share of a R Markdown document will be raw text, though the front matter may be the most important part of the document. R Markdown uses <a href="http://www.yaml.org/">YAML</a> for its metadata and the fields differ from <a href="http://svmiller.com/blog/2015/02/moving-from-beamer-to-r-markdown/">what an author would use for a Beamer presentation</a>. I provide a sample YAML metadata largely taken from this exact document and explain it below.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="o">---</span>
+<span class="n">output</span><span class="o">:</span> 
+  <span class="n">pdf_document</span><span class="o">:</span>
+    <span class="n">citation_package</span><span class="o">:</span> <span class="n">natbib</span>
+    <span class="n">keep_tex</span><span class="o">:</span> <span class="n">true</span>
+    <span class="n">fig_caption</span><span class="o">:</span> <span class="n">true</span>
+    <span class="n">latex_engine</span><span class="o">:</span> <span class="n">pdflatex</span>
+    <span class="n">template</span><span class="o">:</span> <span class="o">~/</span><span class="n">Dropbox</span><span class="o">/</span><span class="n">miscelanea</span><span class="o">/</span><span class="n">svm</span><span class="o">-</span><span class="n">r</span><span class="o">-</span><span class="n">markdown</span><span class="o">-</span><span class="n">templates</span><span class="o">/</span><span class="n">svm</span><span class="o">-</span><span class="n">latex</span><span class="o">-</span><span class="n">ms.tex</span>
+<span class="n">title</span><span class="o">:</span> <span class="s2">"A Pandoc Markdown Article Starter and Template"</span>
+<span class="n">thanks</span><span class="o">:</span> <span class="s2">"Replication files are available on the author's Github account..."</span>
+<span class="n">author</span><span class="o">:</span>
+<span class="o">-</span> <span class="n">name</span><span class="o">:</span> <span class="n">Steven</span> <span class="n">V.</span> <span class="n">Miller</span>
+  <span class="n">affiliation</span><span class="o">:</span> <span class="n">Clemson</span> <span class="n">University</span>
+<span class="o">-</span> <span class="n">name</span><span class="o">:</span> <span class="n">Mary</span> <span class="n">Margaret</span> <span class="n">Albright</span>
+  <span class="n">affiliation</span><span class="o">:</span> <span class="n">Pendelton</span> <span class="n">State</span> <span class="n">University</span>
+<span class="o">-</span> <span class="n">name</span><span class="o">:</span> <span class="n">Rembrandt</span> <span class="n">Q.</span> <span class="n">Einstein</span>
+  <span class="n">affiliation</span><span class="o">:</span> <span class="n">Springfield</span> <span class="n">University</span>
+<span class="n">abstract</span><span class="o">:</span> <span class="s2">"This document provides an introduction to R Markdown, argues for its..."</span>
+<span class="n">keywords</span><span class="o">:</span> <span class="s2">"pandoc, r markdown, knitr"</span>
+<span class="n">date</span><span class="o">:</span> <span class="s2">"`r format(Sys.time(), '%B %d, %Y')`"</span>
+<span class="n">geometry</span><span class="o">:</span> <span class="n">margin</span><span class="o">=</span><span class="m">1i</span><span class="n">n</span>
+<span class="n">fontfamily</span><span class="o">:</span> <span class="n">mathpazo</span>
+<span class="n">fontsize</span><span class="o">:</span> <span class="m">11</span><span class="n">pt</span>
+<span class="c1"># spacing: double
+</span><span class="n">bibliography</span><span class="o">:</span> <span class="o">~/</span><span class="n">Dropbox</span><span class="o">/</span><span class="n">master.bib</span>
+<span class="n">biblio</span><span class="o">-</span><span class="n">style</span><span class="o">:</span> <span class="n">apsr</span>
+<span class="o">---</span></code></pre></figure>
+
+<p><code class="highlighter-rouge">output:</code> will tell R Markdown we want a PDF document rendered with LaTeX. Since we are adding a fair bit of custom options to this call, we specify <code class="highlighter-rouge">pdf_document:</code> on the next line (with, importantly, a two-space indent). We specify additional output-level options underneath it, each are indented with four spaces. <code class="highlighter-rouge">citation_package: natbib</code> tells R Markdown to use <code class="highlighter-rouge">natbib</code> to handle bibliographic citations.<sup id="fnref:natbib"><a href="#fn:natbib" class="footnote">1</a></sup> Thereafter, the next line (<code class="highlighter-rouge">keep_tex: true</code>) tells R Markdown to render a raw <code class="highlighter-rouge">.tex</code> file along with the PDF document. This is useful for both debugging and the publication stage, when the editorial team will ask for the raw <code class="highlighter-rouge">.tex</code> so that they could render it and later provide page proofs. The next line <code class="highlighter-rouge">fig_caption: true</code> tells R Markdown to make sure that whatever images are included in the document are treated as figures in which our caption in brackets in a Markdown call is treated as the caption in the figure. The next line (<code class="highlighter-rouge">latex_engine: pdflatex</code>) tells R Markdown to use pdflatex and not some other option like <code class="highlighter-rouge">lualatex</code>. For my template, I’m pretty sure this is mandatory.<sup id="fnref:pdflatex"><a href="#fn:pdflatex" class="footnote">2</a></sup></p>
+
+<p>The next line (<code class="highlighter-rouge">template: ...</code>) tells R Markdown to use my custom LaTeX template.<sup id="fnref:path"><a href="#fn:path" class="footnote">3</a></sup> While I will own any errors in the code, I confess to “Frankensteining” this template from <a href="https://github.com/jgm/pandoc-templates">the default LaTeX template</a> from Pandoc, <a href="https://github.com/kjhealy/pandoc-templates/tree/master/templates">Kieran Healy’s LaTeX template</a>, and liberally using raw TeX from the <a href="https://www.acm.org/publications/article-templates/acm-latex-style-guide">Association for Computing Machinery’s (ACM) LaTeX template</a>. I rather like that template since it resembles standard manuscripts when they are published in some of our more prominent journals. I will continue with a description of the YAML metadata in the next paragraph, though invite the curious reader to scroll to the end of the accompanying post to see the PDF this template produces.</p>
+
+<p>The next fields get to the heart of the document itself. <code class="highlighter-rouge">title:</code> is, intuitively, the title of the manuscript. Do note that fields like <code class="highlighter-rouge">title:</code> do not have to be in quotation marks, but must be in quotation marks if the title of the document includes a colon. That said, the only reason to use a colon in an article title is if it is followed by a subtitle, hence the optional field (<code class="highlighter-rouge">subtitle:</code>). Notice I “comment out” the subtitle in the above example with a pound sign since this particular document does not have a subtitle. If <code class="highlighter-rouge">thanks:</code> is included and has an accompanying entry, the ensuing title of the document gets an asterisk and a footnote. This field is typically used to advise readers that the document is a working paper or is forthcoming in a journal.</p>
+
+<p>The next field (<code class="highlighter-rouge">author:</code>) is a divergence from standard YAML, but I think it is useful. I will also confess to pilfering this idea from Kieran Healy’s template. Typically, multiple authors for a given document are separated by an <code class="highlighter-rouge">\and</code> in this field. However, standard LaTeX then creates a tabular field separating multiple authors that is somewhat restrictive and not easy to override. As a result, I use this setup (again, taken from Kieran Healy) to sidestep the restrictive rendering of authors in the standard <code class="highlighter-rouge">\maketitle</code> tag. After <code class="highlighter-rouge">author:</code>, enter <code class="highlighter-rouge">- name:</code> (no space before the dash) and fill in the field with the first author. On the next line, enter two spaces, followed by <code class="highlighter-rouge">affiliation:</code> and the institute or university affiliation of the first author.</p>
+
+<p>Do notice this can be repeated for however many co-authors there are to a manuscript. The rendered PDF will enter each co-author in a new line in a manner similar to journals like <em>American Journal of Political Science</em>, <em>American Political Science Review</em>, or <em>Journal of Politics</em>.</p>
+
+<p>The next two fields pertain to the frontmatter of a manuscript. They should also be intuitive for the reader. <code class="highlighter-rouge">abstract</code> should contain the abstract and <code class="highlighter-rouge">keywords</code> should contain some keywords that describe the research project. Both fields are optional, though are practically mandatory. Every manuscript requires an abstract and some journals—especially those published by Sage—request them with submitted manuscripts. My template also includes these keywords in the PDF’s metadata.</p>
+
+<p><code class="highlighter-rouge">date</code> comes standard with R Markdown and you can use it to enter the date of the most recent compile. I typically include the date of the last compile for a working paper in the <code class="highlighter-rouge">thanks:</code> field, so this field currently does not do anything in my Markdown-LaTeX manuscript template. I include it in my YAML as a legacy, basically.</p>
+
+<p>The next items are optional and cosmetic. <code class="highlighter-rouge">geometry:</code> is a standard option in LaTeX. I set the margins at one inch, and you probably should too. <code class="highlighter-rouge">fontfamily:</code> is optional, but I use it to specify the Palatino font. The default option is Computer Modern Roman. <code class="highlighter-rouge">fontsize:</code> sets, intuitively, the font size. The default is 10-point, but I prefer 11-point. <code class="highlighter-rouge">spacing:</code> is an optional field. If it is set as “double”, the ensuing document is double-spaced. “single” is the only other valid entry for this field, though not including the entry in the YAML metadata amounts to singlespacing the document by default. Notice I have this “commented out” in the example code.</p>
+
+<p>The final two options pertain to the bibliography. <code class="highlighter-rouge">bibliography:</code> specifies the location of the .bib file, so the author could make citations in the manuscript. <code class="highlighter-rouge">biblio-style</code> specifies the type of bibliography to use. You’ll typically set this as APSR. You could also specify the relative path of <a href="http://svmiller.com/miscellany/journal-of-peace-research-bst-file/">my <em>Journal of Peace Research</em> .bst file</a> if you are submitting to that journal.</p>
+
+<h2 id="getting-started-with-markdown-syntax">Getting Started with Markdown Syntax</h2>
+
+<p>There are a lot of cheatsheets and reference guides for Markdown (e.g. <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Adam Prichard</a>, <a href="http://assemble.io/docs/Cheatsheet-Markdown.html">Assemble</a>, <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">Rstudio</a>, <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">Rstudio again</a>, <a href="http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf">Scott Boms</a>, <a href="https://daringfireball.net/projects/markdown/syntax">Daring Fireball</a>, among, I’m sure, several others). I encourage the reader to look at those, though I will retread these references here with a minimal working example below.</p>
+
+<figure class="highlight"><pre><code class="language-tex" data-lang="tex"># Introduction
+
+**Lorem ipsum** dolor *sit amet*. 
+
+- Single asterisks italicize text *like this*. 
+- Double asterisks embolden text **like this**.
+
+Start a new paragraph with a blank line separating paragraphs.
+
+- This will start an unordered list environment, and this will be the first item.
+- This will be a second item.
+- A third item.
+    - Four spaces and a dash create a sublist and this item in it.
+- The fourth item.
+    
+1. This starts a numerical list.
+2. This is no. 2 in the numerical list.
+    
+# This Starts A New Section
+## This is a Subsection
+### This is a Subsubsection
+#### This starts a Paragraph Block.
+
+&gt; This will create a block quote, if you want one.
+
+Want a table? This will create one.
+
+Table Header  | Second Header
+------------- | -------------
+Table Cell    | Cell 2
+Cell 3        | Cell 4 
+
+Note that the separators *do not* have to be aligned.
+
+Want an image? This will do it.
+
+![caption for my image](path/to/image.jpg)
+
+`fig<span class="p">_</span>caption: yes` will provide a caption. Put that in the YAML metadata.
+
+Almost forgot about creating a footnote.[<span class="p">^</span>1] This will do it again.[<span class="p">^</span>2]
+
+[<span class="p">^</span>1]: The first footnote
+[<span class="p">^</span>2]: The second footnote
+
+Want to cite something? 
+
+- Find your biblatexkey in your bib file.
+- Put an @ before it, like @smith1984, or whatever it is.
+- @smith1984 creates an in-text citation (e.g. Smith (1984) says...)
+- [@smith1984] creates a parenthetical citation (Smith, 1984)
+
+That'll also automatically create a reference list at the end of the document.
+
+[In-text link to Google](http://google.com) as well.</code></pre></figure>
+
+<p>That’s honestly it. Markdown takes the chore of markup from your manuscript (hence: “Markdown”).</p>
+
+<p>On that note, you could easily pass most LaTeX code through Markdown if you’re writing a LaTeX document. However, you don’t need to do this (unless you’re using the math environment) and probably shouldn’t anyway if you intend to share your document in HTML as well.</p>
+
+<h2 id="the-template-in-action">The Template in Action</h2>
+
+<p>This is what the template looks like in action. You can also find how to use R Markdown and <a href="http://yihui.name/knitr/">knitr</a> to run R code within your R Markdown document, allowing for dynamic report generation.</p>
+
+<iframe src="//docs.google.com/viewer?url=https://dl.dropboxusercontent.com/s/qod8po3txr7owil/svm-rmarkdown-article-example.pdf?dl=0&amp;hl=en_US&amp;embedded=true" class="gde-frame" style="width:100%; height:800px; border: none;" scrolling="no"></iframe>
+
+<p>Refer to <a href="https://github.com/svmiller">my Github</a> and <a href="https://github.com/svmiller/svm-r-markdown-templates">my template repository</a> for future updates.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:natbib">
+      <p>R Markdown can use Pandoc’s native bibliography management system or even <code class="highlighter-rouge">biblatex</code>, but I’ve found that it chokes with some of the more advanced stuff I’ve done with my .bib file over the years. For example, I’ve been diligent about special characters (e.g. umlauts and acute accents) in author names in my .bib file, but Pandoc’s native citation system will choke on these characters in a .bib file. I effectively need <code class="highlighter-rouge">natbib</code> for my own projects. <a href="#fnref:natbib" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:pdflatex">
+      <p>The main reason I still use <code class="highlighter-rouge">pdflatex</code> (and most readers probably do as well) is because of LaTeX fonts. <a href="http://www-rohan.sdsu.edu/~aty/bibliog/latex/gripe.html">Unlike others</a>, I find standard LaTeX fonts to be appealing. <a href="#fnref:pdflatex" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:path">
+      <p>Notice that the path is relative. The user can, if she wishes, install this in the default Pandoc directory. I don’t think this is necessary. Just be mindful of wherever the template is placed. Importantly, <code class="highlighter-rouge">~</code> is used in R to find the home directory (not necessarily the working directory). It is equivalent to saying <code class="highlighter-rouge">/home/steve</code> in Linux, or <code class="highlighter-rouge">/Users/steve</code> on a Mac, in my case. <a href="#fnref:path" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+<div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'achuwilson';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script id="dsq-count-scr" src="//achuwilson.disqus.com/count.js" async></script>
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Achu Wilson</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Achu Wilson</strong></li>
+		<!--	<li>Assistant Professor</li> -->
+          <li><a href="mailto:achuwilson@gmail.com">achuwilson@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/achuwilson">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">achuwilson</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/achuwilson">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">achuwilson</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <!-- <p class="text">
+		Department of Political Science<br />
+		232 Brackett Hall<br />
+		Clemson, SC 29634-1354</p> <!-- I'm a political scientist at Clemson University with research interests in international conflict and political behavior. Topics on my site include my teaching interests, R, LaTeX, and professional development.
+ -->
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-37298398-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
+
