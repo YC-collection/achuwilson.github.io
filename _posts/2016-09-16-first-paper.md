@@ -4,7 +4,7 @@ author: achu
 layout: post
 permalink: /blog/2016/09/first_paper/
 categories:
-  - IEEE, Research
+  - Research
 excerpt: "How I choose, did research and wrote a conference paper in under less than a month  ."
 ---
 
