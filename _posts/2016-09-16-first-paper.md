@@ -8,18 +8,18 @@ categories:
 excerpt: "How I choose, did research and wrote a conference paper in under less than a month  ."
 ---
 
-##What is this about?
+## What is this about?
 
 Finally, I did it. Wrote a research paper and submitted for the IEEE International Conference on Robotics and Automation, ICRA-2017. I know submitting a paper is not as big/valued as getting it accepted, since anyone can submit a paper to the top conferences. It is under review and I doubt whether it would be accepted, but even then I am happy that I could put my best effort into it and learn much. I worked on three research ideas in a couple of months and the final one was rolled out in just under 30 days.
 So following is a write up on why and how I did it.
 
-##Why I did it?
+## Why I did it?
 1. I always wanted to become a scientist and make my little contribution to science/robotics.
 2. I wanted to get into a Ph.D program and I had no research papers.
 3. To experience how it was like doing research and writing a technical paper.
 4. Attend conferences like ICRA and IROS again, meet smart people and their work.
 
-##My Background and Constraints
+## My Background and Constraints
 
 Ever since I was rejected from a couple of Ph.D programs in 2014 due to lack of research experience, I have been making plans and trying to do research on my own and write a couple of papers. But nothing moved past making elaborate plans and maybe a little literature study for all the research ideas I had. The stresses of working in a startup consume so much of your mental strength as well as time. Thus I failed in materializing all my research Ideas. My research ideas are interdisciplinary and spans over computer vision for robotics, novel actuators for robots, robotic manipulators and motion planning to name a few.
 
@@ -38,10 +38,10 @@ My constraints are:
 * Since one of the goals of undertaking a research project is going to the next ICRA, I have to submit the paper before 15th September 2016.
 
 
-##How it Started?
+## How it Started?
 
 
-###**-16 to 21st May 2016:  Attending ICRA**
+### **-16 to 21st May 2016:  Attending ICRA**
 
 I had the priceless opportunity to attend the IEEE sponsored International Conference on Robotics and Automation [(ICRA)](https://www.icra2016.org) at Stockholm. I was one of the three-member team "Autobots" that won the Humanitarian Robotics Challenge (HRATC).
 
@@ -84,11 +84,11 @@ I have seen Super Mini Cheetah (SMC) before and had a plan to make a clone of it
 
 
 
-###**-26th May 2016 : Back home**
+### **-26th May 2016 : Back home**
 
 I returned back home from ICRA. There was plenty of work pending at the office since I was gone for over a week. I had to take care of that.
 
-###**-30th May to June 5 2016 : Literature Search**
+### **-30th May to June 5 2016 : Literature Search**
 
 So thus began the literature search. I searched all over the internet and gathered a ton of research papers. Now I had to read through all of them, make notes and think how to build upon that.  Finding time to read all these was the first problem I faced. I cannot sit and read the entire day. I started using Mendeley app in PC and my Android smartphone to organize the papers and make notes. Having all the papers in my smartphone helped to make use of every bit of time otherwise spent useless. I read during my daily commute to and from work, during meals, when I am travelling outside etc
 
@@ -96,7 +96,7 @@ So thus began the literature search. I searched all over the internet and gather
 
 
 
-###**-6 to 18th June 2016 : Job Calls for Travel**
+### **-6 to 18th June 2016 : Job Calls for Travel**
 
 As a part of my job, I had to travel for some meetings and demos during these days. I drove from Cochin to Chennai, had half a dozen meetings and demos to various clients in and around Chennai. Indian cities are notorious for the traffic jams. Moreover, Chennai was hot and uncomfortable. The next week I drove to Bangalore, where a dozen other meetings and demos were scheduled. After all these demos I drove back to Cochin on 18th. Total Kilometers driven: 3500 
 
@@ -108,14 +108,14 @@ Even though finding time to read was difficult, there was enough and more time t
 
 My thoughts began to converge around the  suitability of electric direct drive linear actuators for a high-performance anthropomorphic manipulator, which is highly dynamic and at the same time safe and compliant enough to work alongside humans. Two linear actuators would be coupled antagonistically at each joint analogous to mammalian muscle structure. A quick search on the internet convinced me that little or no research has been done in this area. So as the first step, I had to study, design and make the *direct drive linear actuator, or as in my dreams, the ideal human muscle replacement.*
 
-###**-18th - 25th June 2016 : Background Study**
+### **-18th - 25th June 2016 : Background Study**
 
 I am back at my hometown and began reading papers on direct drive manipulators. I read papers ranging from those published in 1981(Design of direct drive robots by H. Asada & T. Kanade )  to the recently published papers on direct drive jumping robots at UPenn and MIT.  I also referred The Springer Handbook of Robotics,  especially the chapters on Force Control to gain the theoretical knowledge. Also, the 2009 September IEEE Robotics and Automation Magazine article titled "Compliant Actuator Designs" by Bram Vanderborght helped me understand better about the various compliant systems. 
 
 As I began studying more and more about direct drive actuators and their suitability in human safe robots, it became clear the vastness and depth of the subject. I have chosen a vast area. From my experience on building  and working with robot manipulators for a couple of years, it was evident that building a linear actuated direct drive robot is going to take a lot of time, Moreover, building a robot arm may not be cool,  but building a running and jumping cheetah-like robot is definitely cool and satisfying. I was sort of confused on whether to choose the research topic on a jumping robot or a robot manipulator. Instead of making a direct drive robot arm, that may take a long time, why not figue out a way to make use of the same linear actuator to make my cheetah robot run and jump. So my research turned to designing a jumping leg using linear direct drive actuators. Thus my reference literature also started to include quadruped robots capable of jumping and hopping. One of the notable sources from which I studied  about quadruped robots is the Ph.D thesis of Claudio Semini, in which he develops HyQ robot
 
 
-###**-25th June 2016 -  Idea 1: Direct Drive Linear Actuator**
+### **-25th June 2016 -  Idea 1: Direct Drive Linear Actuator**
 
 
 Once I felt enough background study has been done, I resorted to my research and design. It was a variation of the tubular liner shaft actuators. I had to sharpen my math skills , learn new things like electromagnetic FEM analysis etc to name a few. The first draft of the design was done using the old school method of paper and pencil. Then an initial design in CAD was done and was verified using mechanical and electromagnetic FEM. Once the design parameters were verified, it was time for the detailed mechanical drawing. Once the detailed design was completed, the respective parts were 3D printed.
@@ -126,36 +126,36 @@ Once I felt enough background study has been done, I resorted to my research and
 
 The cylindrical shaft was to be filled with Neodymium magnets in such a way that the magnetic flux lines will be perpendicular to the shaft. The magnetic field produced by the 3 phase coil will then interact with the magnetic field of the permanent magnets to induce force in them. Thecurrent in the coils have to be commuted properly depending on the position of the magnet using hall sensors.
 
-###**-27th June 2016 -  Assembling the 3D Printed parts**
+### **-27th June 2016 -  Assembling the 3D Printed parts**
 
 I choose to use 3D printing to make my the parts of my first prototype. The 3D printing started and it took a couple of days to print all the parts successfully. The linear moving shaft, the coupler that connects the shaft to the external load, and the support structure for winding the coil all were 3D printed. Since the mechanical components were designed to be tight-fit, the shrinkage and expansion of the material during 3D printing made the fitting and assembly impossible, I had to spend a decent amount of time filing, and using sandpaper to get the exact fit.
 
-###**-30th June 2016 -  Winding the coils**
+### **-30th June 2016 -  Winding the coils**
 
  
  The next step was winding the coils. I started winding manually using the hand, but grew impatient quickly  and ended up using an electric screwdriver to speed up the winding process.
 
-###**-3rd to 4 th July 2016 -  Initial success with Idea1**
+### **-3rd to 4 th July 2016 -  Initial success with Idea1**
 
 
 The next step was the electronics assembly. The control system was based on a Teensy board. The coils were driven by  MC33926 motor drivers which had an excellent motor current feedback functionality, which could be used for impedance control of the actuator.I decided to add the Hall sensors at next stage after verifying whether the system works fine.
 
 Next step was the barebones controller software. Teensy generated 3 phase PWM which was used to drive the coil, and viola, the coil moved at the first attempt itself. The motion was not smooth as expected, but could be made smoother using Hall sensor feedback and a simple PID . The output force was good enough and could be increased by increasing the current. So, I decided to go ahead and figure out the maximum force it can  apply without overheating and external cooling.I found it to be  satisfactory, and with a little bit of cooling, it can provide enough force to make the robot jump like the cheetah. So I went to sleep happily. 
 
-###**-5th July 2016 -  The disappointment** 
+### **-5th July 2016 -  The disappointment** 
 
 The next day, when I resumed work on the actuator, soon it was found that the linear shaft is stuck inside the coil. Even though the heating caused by the previous day's force testing  was below limits for the coil winding, it was enough to weaken the 3D printed plastic. Since the shaft had opposing Neodymium magnets inside, the internal stresses are high and it caused the shaft to bend, melt and lock inside the coil.
 
-###**-10th July 2016 : Retrying Idea1**
+### **-10th July 2016 : Retrying Idea1**
 
 I had to 3D print another set. This time, I went for hollow aluminum tubes as the shaft. Aluminum rods were lighter, will dissipate heat effectively and the thickness was less than 1 mm. This meant that the coils can carry higher current and the air reduction in thickness will reduce the air gap. 
 So again the FEM analysis was done, CAD models redrawn.
 
-###**-14th to 20th July 2016 : Travelling**
+### **-14th to 20th July 2016 : Travelling**
 
 I had to travel again. This time it was to Bangalore and Coimbatore, to provide support to one of our client. This means my research is now paused. All I can do is keep on reading  the papers, think think think. 
 
-###**-22nd to 24th July 2016 :  Version 2 of Idea1**
+### **-22nd to 24th July 2016 :  Version 2 of Idea1**
 
 Back at home, purchased  the aluminum rods, 3D printed the components 
 
@@ -164,11 +164,11 @@ Back at home, purchased  the aluminum rods, 3D printed the components
 
 So, again began the long coil winding process. 
 
-###**-24th July to 4th August 2016 : Don't Re-invent the wheel**
+### **-24th July to 4th August 2016 : Don't Re-invent the wheel**
 
 While winding the coil, a stark realization hit me. If I am proceeding at this pace. it will take me long to complete my reasearch. I need to do the commutation, impedance and dampng controllers in software etc etc.. Then I have to machine it sturdy to that cheeta can jump etc. My resarch is not just the development of a linear direct drive actuator, it is much broader. the linear actuator is just a component that enables my research on its usage in highly dynamic robot environments. As of now, the component that I am making now, is available in the market, even though it doesnt have all the qualities i dreamed of. So why should I spend my time on problems already solved. In fact, i was reinventing the wheel. So I should just make use of the.
 
-###**-5th to 9th August 2016 : More Travel and the 2nd Idea**
+### **-5th to 9th August 2016 : More Travel and the 2nd Idea**
 
 Again.. the travel, this time it is a customer support at Hyderabad. I couldnt work on my project, but during the 48 hours of time spend travelling I could read papers and think in a relaxed state. I began thinking about a robot leg actuated by a direct drive linear actuator and started the design and reiteration process in mind.The design was centered around an off the shelf direct drive linear actuator made by Faulhaber.
 
@@ -178,7 +178,7 @@ The innovation I would bring to table would be the designing of a controller cap
 {% include image.html url="/images/LM1247_11_P.JPG" caption=" Faulhaber Direct Drive Linear motor"  href="/images/LM1247_11_P.JPG" width=500 align="center" %}
 
 
-###**-10th to 16th August 2016 : Failure of 2nd Idea**
+### **-10th to 16th August 2016 : Failure of 2nd Idea**
 Once back at home, the design I had in my mind was transferred to paper, calculations were done and verified and then to the CAD program. The materials required, including the Faulhaber motor, controllers, aluminun extrusions all were procured. The Faulhaber direct drive motor is pretty expensive and is out of reach of a typical hobbyist.
 Once everyting was procured, then the assembly of the design was done.
 
@@ -189,16 +189,16 @@ width=800 align="center" %}
 Now I could start writing the controller. I could get to move the leg up and down, but it didnt had the enough power to lift it from ground. The motor heated up very much that I feared I would see the magic blue smoke coming out of the expensive motor and I had to shut it down frequently to allow for the cooling.  I was also unable to send quick bursts of high current using the default motor driver it came with. The time was running out to develop a custom driver for this motor. So I was again in geopardy.  I realized and accepted this is also going to fail.
 
 
-###**-16th to 22nd August 2016 : More Travel, More Study**
+### **-16th to 22nd August 2016 : More Travel, More Study**
 
 I had to travel to Chennai for supporting a customer of my company. I stayed with my uncle in chennai and the daily commute to the client was about 70 kms one side distance. I was travelling in the crowded suburbun trains of Chennai and the hot climate made it worse. I had to start my journey at abot 8 AM and would be back only by 11PM. I would be very exhaused  by the time I reach my room. So reading at night was beyond consideration. But I could make use of the commute time. In total it took around 7 hours an average per day for my commute. I spend this time reading through the papers that came in the ICRA USB drive. There were over a thousand papers in my reading list. I skimmed through most of them, stopping and reading only those portions I could understand/was interested in. I came across the paper titled " Design and Development of a Hybrid Magneto-Rheological Clutch for Safe Robotic Applications" by Masoud Moghani and Mehrdad R. Kermani. It captured my attention and I began to study more about Magneto Rheological fluids and their application in human safe robotics. I found out a couple more papers by the same authors on the fundamentals.
 
 
-###**-23rd to 26th August 2016 :  3rd Idea- MR Linear Clutch**
+### **-23rd to 26th August 2016 :  3rd Idea- MR Linear Clutch**
 
 Once I was back at home, I began to delve deep into MR Fluids and their characterization. More reading... More searching.. I came up with an idea to make use of the properties of MR Fluid to make a Linear clutch -  a clutch which controls force transmitted from input to output through MR fluid. 
 
-###**-28th August 2016 : Making my own MR Fluid**
+### **-28th August 2016 : Making my own MR Fluid**
 
 MR fluids are expensive and the lead time will be a couple of weeks. Since I cannot afford both, I resorted to making my own MR fluid. I filed myself a piece of iron to the fine powdered form and used vegetable oil as the medium to make my own MR fluid for the prototype.
 Here is a small video with the MR fluid
@@ -211,7 +211,7 @@ Here is a small video with the MR fluid
 <br>
 <br>
 
-###**-30th August 2016 : CAD Design of Clutch**
+### **-30th August 2016 : CAD Design of Clutch**
 
 The FEM analysis and CAD design of the MR Linear clutch is completed.
  
@@ -221,7 +221,7 @@ The FEM analysis and CAD design of the MR Linear clutch is completed.
 
 {% include image.html url="/images/FEM_clutch.jpg" caption="Electromagnetic FEM analysis." href="/images/FEM_clutch.jpg"  width=650 align="center" %}
 
-###**-4th September 2016 : Fabricating the parts of Clutch**
+### **-4th September 2016 : Fabricating the parts of Clutch**
 
 The 3D printing of the parts of the clutch is complete.
 
@@ -244,14 +244,14 @@ The winding of coil over the 3D printed cutch casing is completed.
  Now I have to procure a couple of items including linear shaft bearings, aluminum rods etc.
 
 
-###**-6th September 2016 : Success of 3rd Idea**
+### **-6th September 2016 : Success of 3rd Idea**
 
 Once all the parts are procured, the the clutch was assembled and the cavity inside was filled with MR Fluid. Then i had to test the working of the clutch and study its characteristics.  **Yeah.. It worked as I expected and designed**. Finally I could relax a bit and sleep peacefully.
 
 {% include image.html url="/images/clutch_photo.jpg" caption="The  assembled MR linear clutch." href="/images/clutch_photo.jpg"   width=650 align="center" %}
 
 
-###**-8th September 2016 : Assembling the arm**
+### **-8th September 2016 : Assembling the arm**
 
 In order to demonstrate the usefulness and study more about the MR linear clutch, a single degree of freedom robot joint was designed and fabricated. It used the standard 30x30 Aluminum profiles. The arm was driven by a Firgelli linear actuator
 
@@ -268,7 +268,7 @@ In order to demonstrate the usefulness and study more about the MR linear clutch
 
 
 
-###**-9th and 10th September 2016 : More Experiments**
+### **-9th and 10th September 2016 : More Experiments**
 
 More experiments are done with the arm to validate the functionality of MR Linear clutch.
 
@@ -287,7 +287,7 @@ The final paper is embedded below
 <br>
 <br>
 
-###**-16th September 2016 :  Making the Video**
+### **-16th September 2016 :  Making the Video**
 
 Finally I took my time to make a small video clip of the research output.
 It was then uploaded to the RAS Papercept page
@@ -298,7 +298,7 @@ It was then uploaded to the RAS Papercept page
 </div>
 <br><br>
 
-##**Final Words - Lessons learned**
+## **Final Words - Lessons learned**
 
 No matter whether the paper is acccepted or rejected, it was an awesome experience. I pushed myself to the limits, learned a lot of things.
 

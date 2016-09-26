@@ -12,7 +12,7 @@ My research interests include direct drive robots capable of highly dynamic moti
 
 ## Publications
 
-###Under Review:
+### Under Review:
 Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots.
 
 ## Working Papers and Works in Progress
