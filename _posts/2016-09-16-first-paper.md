@@ -204,9 +204,9 @@ MR fluids are expensive and the lead time will be a couple of weeks. Since I can
 Here is a small video with the MR fluid
 
 
-<div align="center">
+
 <iframe width="700" height="394" src="https://www.youtube.com/embed/9ZZQn46WvLg" frameborder="0" allowfullscreen></iframe>
-</div>
+
 
 <br>
 <br>
@@ -281,9 +281,9 @@ Experiments are completed and data collected. Now I have to write the paper. Sin
 
 The final paper is embedded below
 
-<div align="center">
+
 <iframe src="https://drive.google.com/file/d/0B1VQQE8L69dvOVgxSzF1anV1dzQ/preview" width="780" height="880" align="center"></iframe>
-</div>
+
 <br>
 <br>
 
@@ -293,9 +293,9 @@ Finally I took my time to make a small video clip of the research output.
 It was then uploaded to the RAS Papercept page
 <br>
 
-<div align="center">
+
 <iframe width="700" height="394" align ="middle" src="https://www.youtube.com/embed/ES0q4eb1TYo" frameborder="0"  allowfullscreen></iframe>
-</div>
+
 <br><br>
 
 ## **Final Words - Lessons learned**
