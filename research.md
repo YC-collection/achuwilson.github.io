@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-My research interests include direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction. 
+My research interests include direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation of deformable objects etc
 
 
 <hr style="clear:both;visibility: hidden;" />  
