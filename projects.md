@@ -35,6 +35,7 @@ This was a small project done for the qualification round of MBZIRC Challenge
 
 <br>
 <br>
+
 ## Playing 2048 with a robot and AI (2014)
 
 <div align="center">
