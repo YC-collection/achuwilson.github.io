@@ -8,6 +8,8 @@ categories:
 excerpt: "How I choose, did research and wrote a conference paper in under less than a month  ."
 ---
 
+<meta property="og:image" content="http://www.coachesneedsocial.com/wp-content/uploads/2014/12/BannerWCircleImages-1.jpg" />
+
 ## What is this about?
 
 Finally, I did it. Wrote a research paper and submitted for the IEEE International Conference on Robotics and Automation, ICRA-2017. I know submitting a paper is not as big/valued as getting it accepted, since anyone can submit a paper to the top conferences. It is under review and I doubt whether it would be accepted, but even then I am happy that I could put my best effort into it and learn much. I worked on three research ideas in a couple of months and the final one was rolled out in just under 30 days.
@@ -49,7 +51,7 @@ The benefits brought by ICRA were many. I met so many researchers and came to kn
 
 Apart  from meeting awesome people, the best thing ICRA gave me is the following.
 
-{% include image.html url="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" caption="The ICRA Proceedings in USB Drive" href="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" width=900 align="center" %}
+{% include image.html url="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" caption="The ICRA Proceedings in USB Drive" href="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" width=650 align="center" %}
 
 
 Yeah, it is an USB pen drive, which contains data of immense value. It was the first time I had access to this much research papers. It was awesome to go through all of the papers, even though I couldn't understand many of the purely theoretical ones.
