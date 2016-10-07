@@ -327,18 +327,18 @@ In most cases, scientific research and publication of results take an enormous a
  
  <div align="center">
  
- ***I shall be telling this with a sigh<br>
+ ***I shall be telling this with a sigh***<br>
  
-Somewhere ages and ages hence:<br>
+***Somewhere ages and ages hence:***<br>
 
-Two roads diverged in a wood, and I—<br>
+***Two roads diverged in a wood, and I—***<br>
 
-I took the one less traveled by,<br>
+***I took the one less traveled by,***<br>
 
-And that has made all the difference.*** 
+***And that has made all the difference.*** 
 <br> 
 
-          -  *Robort Frost*
+ *-Robort Frost*
 
 
 <div>
