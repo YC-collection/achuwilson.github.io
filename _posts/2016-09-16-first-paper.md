@@ -324,17 +324,19 @@ In most cases, scientific research and publication of results take an enormous a
  So in short ***Engineering = predictable*** ,while ***Research = unpredictable.***
  
  <br>
+ 
  <div align="center">
  
- ***"I shall be telling this with a sigh
+ ***I shall be telling this with a sigh<br>
  
-Somewhere ages and ages hence:
+Somewhere ages and ages hence:<br>
 
-Two roads diverged in a wood, and I—
+Two roads diverged in a wood, and I—<br>
 
-I took the one less traveled by,
+I took the one less traveled by,<br>
 
-And that has made all the difference."*** 
+And that has made all the difference.*** 
+<br> 
 
           -  *Robort Frost*
 
