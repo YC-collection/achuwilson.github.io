@@ -325,21 +325,8 @@ In most cases, scientific research and publication of results take an enormous a
  
  <br>
  
- <div align="center">
+ {% include image.html url="/images/rltd.jpg"    width=650 align="center" %}
+
+<br>
  
- ***I shall be telling this with a sigh***<br>
- 
-***Somewhere ages and ages hence:***<br>
 
-***Two roads diverged in a wood, and I—***<br>
-
-***I took the one less traveled by,***<br>
-
-***And that has made all the difference.*** 
-
-<br> 
-
- *-Robort Frost*
-
-
-<div>
