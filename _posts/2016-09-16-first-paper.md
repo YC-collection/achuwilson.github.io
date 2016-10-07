@@ -6,7 +6,6 @@ permalink: /blog/2016/09/how_i_wrote_research_paper_in_30_days/
 categories:
   - Research
 excerpt: "How I choose, did research and wrote a conference paper in under less than a month  ."
-<meta property="og:image" content="http://www.coachesneedsocial.com/wp-content/uploads/2014/12/BannerWCircleImages-1.jpg" />
 ---
 
 
