@@ -205,7 +205,7 @@ Here is a small video with the MR fluid
 
 
 <div align="center">
-<iframe width="900" height="394" src="https://www.youtube.com/embed/9ZZQn46WvLg" frameborder="0" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/9ZZQn46WvLg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br>
@@ -295,7 +295,7 @@ It was then uploaded to the RAS Papercept page
 <br>
 
 <div align="center">
-<iframe width="900" height="394" align ="middle" src="https://www.youtube.com/embed/ES0q4eb1TYo" frameborder="0"  allowfullscreen></iframe>
+<iframe width="900" height="506" align ="middle" src="https://www.youtube.com/embed/ES0q4eb1TYo" frameborder="0"  allowfullscreen></iframe>
 </div>
 <br><br>
 
