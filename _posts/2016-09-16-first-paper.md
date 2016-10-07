@@ -153,7 +153,7 @@ So again the FEM analysis was done, CAD models redrawn.
 
 ### **-14th to 20th July 2016 : Travelling**
 
-I had to travel again. This time it was to Bangalore and Coimbatore, to provide support to one of our client. This means my research is now paused. All I can do is keep on reading  the papers, think think think. 
+I had to travel again. This time, it was to Bangalore and Coimbatore, to provide support to some of our clients. This means my research is now paused. All I can do is keep on reading  the papers, think think think. 
 
 ### **-22nd to 24th July 2016 :  Version 2 of Idea1**
 
@@ -166,11 +166,11 @@ So, again began the long coil winding process.
 
 ### **-24th July to 4th August 2016 : Don't Re-invent the wheel**
 
-While winding the coil, a stark realization hit me. If I am proceeding at this pace. it will take me long to complete my reasearch. I need to do the commutation, impedance and dampng controllers in software etc etc.. Then I have to machine it sturdy to that cheeta can jump etc. My resarch is not just the development of a linear direct drive actuator, it is much broader. the linear actuator is just a component that enables my research on its usage in highly dynamic robot environments. As of now, the component that I am making now, is available in the market, even though it doesnt have all the qualities i dreamed of. So why should I spend my time on problems already solved. In fact, i was reinventing the wheel. So I should just make use of the.
+While winding the coil, a stark realization hit me. If I am proceeding at this pace. it will take me long to complete my research. I need to do the commutation, impedance and damping controllers in software etc etc.. Then I have to machine it to be sturdy enough that the cheetah can execute highly dynamic motions like jumping. My research is not just the development of a linear direct drive actuator, it is much broader. the linear actuator is just a component that enables my research on its usage in highly dynamic robot environments. As of now, the component that I am making now, is available in the market, even though it doesn't have all the qualities I dreamed of. So why should I spend my time on problems already solved? In fact, I was reinventing the wheel. So I should just make use of the off the shelf components.
 
 ### **-5th to 9th August 2016 : More Travel and the 2nd Idea**
 
-Again.. the travel, this time it is a customer support at Hyderabad. I couldnt work on my project, but during the 48 hours of time spend travelling I could read papers and think in a relaxed state. I began thinking about a robot leg actuated by a direct drive linear actuator and started the design and reiteration process in mind.The design was centered around an off the shelf direct drive linear actuator made by Faulhaber.
+Again.. the travel, this time, it is a customer support at Hyderabad. I couldn't work on my project, but during the 48 hours of time spent traveling I could read papers and think in a relaxed state. I began thinking about a robot leg actuated by a direct drive linear actuator and started the design and reiteration process in mind.The design was centered around an off the shelf direct drive linear actuator made by Faulhaber.
 
 
 The innovation I would bring to table would be the designing of a controller capable of force control with variable compliance and damping, to handle the extreme dynamics of jumping.
@@ -179,19 +179,19 @@ The innovation I would bring to table would be the designing of a controller cap
 
 
 ### **-10th to 16th August 2016 : Failure of 2nd Idea**
-Once back at home, the design I had in my mind was transferred to paper, calculations were done and verified and then to the CAD program. The materials required, including the Faulhaber motor, controllers, aluminun extrusions all were procured. The Faulhaber direct drive motor is pretty expensive and is out of reach of a typical hobbyist.
-Once everyting was procured, then the assembly of the design was done.
+Once back at home, the design I had in my mind was transferred to paper, calculations were done and verified and then to the CAD program. The materials required, including the Faulhaber motor, controllers, aluminum extrusions all were procured. The Faulhaber direct drive motor is pretty expensive and is out of reach of a typical hobbyist.
+Once everything was procured, then the assembly of the design was done.
 
 
 {% include image.html url="https://c8.staticflickr.com/9/8055/29264131351_95474fe8c8_h.jpg" caption="The jumping leg actuated by a Faulhaber Direct Drive Linear motor"  href="https://c8.staticflickr.com/9/8055/29264131351_95474fe8c8_h.jpg"
 width=800 align="center" %}
 
-Now I could start writing the controller. I could get to move the leg up and down, but it didnt had the enough power to lift it from ground. The motor heated up very much that I feared I would see the magic blue smoke coming out of the expensive motor and I had to shut it down frequently to allow for the cooling.  I was also unable to send quick bursts of high current using the default motor driver it came with. The time was running out to develop a custom driver for this motor. So I was again in geopardy.  I realized and accepted this is also going to fail.
+Now I could start writing the controller. I could get to move the leg up and down, but it didn't had the enough power to lift it from ground. The motor heated up very much that I feared I would see the magic blue smoke coming out of the expensive motor and I had to shut it down frequently to allow for the cooling.  I was also unable to send quick bursts of high current using the default motor driver it came with. The time was running out to develop a custom driver for this motor. So I was again in jeopardy.  I realized and accepted this is also going to fail.
 
 
 ### **-16th to 22nd August 2016 : More Travel, More Study**
 
-I had to travel to Chennai for supporting a customer of my company. I stayed with my uncle in chennai and the daily commute to the client was about 70 kms one side distance. I was travelling in the crowded suburbun trains of Chennai and the hot climate made it worse. I had to start my journey at abot 8 AM and would be back only by 11PM. I would be very exhaused  by the time I reach my room. So reading at night was beyond consideration. But I could make use of the commute time. In total it took around 7 hours an average per day for my commute. I spend this time reading through the papers that came in the ICRA USB drive. There were over a thousand papers in my reading list. I skimmed through most of them, stopping and reading only those portions I could understand/was interested in. I came across the paper titled " Design and Development of a Hybrid Magneto-Rheological Clutch for Safe Robotic Applications" by Masoud Moghani and Mehrdad R. Kermani. It captured my attention and I began to study more about Magneto Rheological fluids and their application in human safe robotics. I found out a couple more papers by the same authors on the fundamentals.
+I had to travel to Chennai for supporting a customer of my company. I stayed with my uncle in Chennai and the daily commute to the client was about 70 km to one side alone. I was traveling in the crowded suburban trains of Chennai and the hot climate made it worse. I had to start my journey at about 8 AM and would be back only by 11PM. I would be very exhausted  by the time I reach my room. So reading at night was beyond consideration. But I could make use of the commute time. In total, it took around 7 hours an average per day for my commute. I spend this time reading through the papers that came in the ICRA USB drive. There were over a thousand papers in my reading list. I skimmed through most of them, stopping and reading only those portions I could understand or was interested in. I came across the paper titled " Design and Development of a Hybrid Magneto-Rheological Clutch for Safe Robotic Applications" by Masoud Moghani and Mehrdad R. Kermani. It captured my attention and I began to study more about Magneto-Rheological fluids and their application in human safe robotics. I found out a couple more papers by the same authors on the fundamentals of MR devices..
 
 
 ### **-23rd to 26th August 2016 :  3rd Idea- MR Linear Clutch**
@@ -200,7 +200,7 @@ Once I was back at home, I began to delve deep into MR Fluids and their characte
 
 ### **-28th August 2016 : Making my own MR Fluid**
 
-MR fluids are expensive and the lead time will be a couple of weeks. Since I cannot afford both, I resorted to making my own MR fluid. I filed myself a piece of iron to the fine powdered form and used vegetable oil as the medium to make my own MR fluid for the prototype.
+MR fluids are expensive and the lead-time will be a couple of weeks. Since I cannot afford both, I resorted to making my own MR fluid. I filed myself a piece of iron to the fine powdered form and used vegetable oil as the medium to make my own MR fluid for the prototype.
 Here is a small video with the MR fluid
 
 
@@ -236,24 +236,24 @@ Now I have to wind the coils
 
 {% include image.html url="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg" caption="The Coil ." href="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg"  width=650 align="center" %}
 
-The winding of coil over the 3D printed cutch casing is completed. 
+The winding of coil over the 3D printed clutch casing is completed. 
 
 {% include image.html url="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" caption="Initial Assembly."  href="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" width=650 align="center" %}
 
 
- Now I have to procure a couple of items including linear shaft bearings, aluminum rods etc.
+ Now I have to procure a couple of items which includes linear shaft bearings, aluminum rods etc.
 
 
 ### **-6th September 2016 : Success of 3rd Idea**
 
-Once all the parts are procured, the the clutch was assembled and the cavity inside was filled with MR Fluid. Then i had to test the working of the clutch and study its characteristics.  **Yeah.. It worked as I expected and designed**. Finally I could relax a bit and sleep peacefully.
+Once all the parts are procured, the clutch was assembled and the cavity inside was filled with MR Fluid. Then it had to be tested and characteristics were studied. **Yeah, It worked as I expected and designed**. Finally, I could relax a bit and sleep peacefully.
 
 {% include image.html url="/images/clutch_photo.jpg" caption="The  assembled MR linear clutch." href="/images/clutch_photo.jpg"   width=650 align="center" %}
 
 
 ### **-8th September 2016 : Assembling the arm**
 
-In order to demonstrate the usefulness and study more about the MR linear clutch, a single degree of freedom robot joint was designed and fabricated. It used the standard 30x30 Aluminum profiles. The arm was driven by a Firgelli linear actuator
+In order to demonstrate the usefulness and study more about the MR linear clutch, a single degree of freedom robot joint was designed and fabricated. It used the standard 30x30 Aluminum profiles. The arm was driven by a Firgelli linear actuator.
 
 {% include image.html url="/images/firgelli.jpg" href="/images/firgelli.jpg" caption="The  Firgelli linear actuator which is used to power the arm."  width=650 align="center" %}
 
@@ -277,7 +277,7 @@ More experiments are done with the arm to validate the functionality of MR Linea
 
 ### **-11 to 15th September 2016 :  Writing the paper**
 
-Experiments are completed and data collected. Now I have to write the paper. Since I didn't have any previous experience writing an academic paper, it took some time.  I read a couple of articles online and referred IEEE guides and instructions. Instead of starting with the abstract and introduction, I started directly with the content- the things I did and the results obtained. Once it was done, I had to refer more literature to write the introductory pages. Luckily, due to the local festival of Onam, I got holidays for a couple of days and could work on the paper full time. Even then, I felt time was running out fast. I had to plot the graphs, make diagrams and pictures and it took lot more time than expected. I worked on the paper for about 4days clocking about 20 hours of work daily. Just a couple of hours before the deadline, I completed the final proofreading and submitted the paper. I was so exhaused after this that I literally slept an entire day after this.
+Experiments are completed and data collected. Now I have to write the paper. Since I didn't have any previous experience writing an academic paper, it took some time.  I read a couple of articles online and referred IEEE guides and instructions. Instead of starting with the abstract and introduction, I started directly with the content- the things I did and the results obtained. Once it was done, I had to refer more literature to write the introductory pages. Luckily, due to the local festival of Onam, I got holidays for a couple of days and could work on the paper full time. Even then, I could felt the time running out fast. I had to plot the graphs, make diagrams and pictures and it took a lot more time than expected. I worked on the paper for about 4days clocking about 20 hours of work daily. Just a couple of hours before the deadline, I completed the final proofreading and submitted the paper. I was so exhausted after this that I literally slept an entire day after this.
 
 The final paper is embedded below
 
@@ -289,8 +289,9 @@ The final paper is embedded below
 
 ### **-16th September 2016 :  Making the Video**
 
-Finally I took my time to make a small video clip of the research output.
+Finally, movie time.
 It was then uploaded to the RAS Papercept page
+
 <br>
 
 <div align="center">
@@ -300,19 +301,36 @@ It was then uploaded to the RAS Papercept page
 
 ## **Final Words - Lessons learned**
 
-No matter whether the paper is acccepted or rejected, it was an awesome experience. I pushed myself to the limits, learned a lot of things.
+No matter whether the paper is accepted or rejected, it was an awesome experience. I pushed myself to the limits, learned a lot of things.
 
-When I started working on the research project, the only thing that mattered to me was doing such an awesome work so that it is accepted at a top conference like ICRA. But as I finished the paper,  I realised that it doesn't matter much whether the paper is accepted or rejected.  Only thing that matters is how much impactful is your work and how much satisfied you are. 
+When I started working on the research project, the only thing that mattered to me was doing such an awesome work so that it is accepted at a top conference like ICRA. But as I finished the paper,  I realized that it doesn't matter much whether the paper is accepted or rejected.  The only thing that matters is how much impactful is your work and how much satisfied you are. 
 
 Along the course of working on the paper, I learned much beyond the robotics stuff. The main ones being,
 
 * **There is plenty of wasted time.**
-In most cases, scientific research and publication of results takes enormous amount of time and resources. It may takes months or even years of research to make an impactful invention and maybe even more months to author a paper on it.   But in my case, the time was fixed as the paper was to be submitted before the deadline, which is just a couple of months away. On top of that, I was working a full time job  at a startup, which made finding the time extremely difficult.I had to find extra time after my work and make best use of the time wasted. I made time by sleeping less, only about 4-5 hours a day.  After my daytime job, I worked almost daily from around 7PM till I was exhausted by around 2/3AM or even 4AM. 
+In most cases, scientific research and publication of results take an enormous amount of time and resources. It may takes months or even years of research to make an impactful invention and maybe even more months to author a paper on it.   But in my case, the time was fixed as the paper was to be submitted before the deadline, which is just a couple of months away. On top of that, I am working a full-time job  at a startup, which made finding the time extremely difficult. I had to find extra time after my work and make the best use of time wasted. I often sleept less, only about 4-5 hours a day.  After my daytime job, I started fiddling with the research projects in the evening and continued till midnight or occassionally to early mornings.
 
-	Having a smartphone always with me was the greatest tool that I used to save time. I had Mendeley on my phone to keep track of all the papers that I am reading. I could read on the phone irrespective of where I am -  while travelling in a crowded bus, when having meals, when having a haircut at the saloon, when stuck in a traffic jam, while waiting for someone, when in a queue or even when I am in the toilet seat. These are the bits of time wasted by not being productive. Somehow I managed to squeeze out every bit of time wasted and use it for productive things.
+	***Having a smartphone always with me was the greatest tool that I used to make best use of time.*** It was loaded with plenty of books and papers. I had Mendeley on my phone to keep track of all the papers that I am reading. I could read on the phone irrespective of where I am -  while traveling in a crowded bus, when having meals, when having a haircut at the salon, when stuck in a traffic jam, while waiting for someone, when in a queue or even when I am in the toilet seat. These are the bits of time wasted by not being productive. Somehow I managed to squeeze out every bit of time wasted and use it for productive things.
 
 
 * **Do not take broad subjects, be specific.**
- Designing a clone of Cheetah using direct drive actuators is a very broad topic. Studies must be done on the actuators, optimum kinematic structure, gait generation, stability and much more. Each of these require considerable research effort in itself and has been only possible by the collective effort of many researchers. So concentrate on something that may seem simple and small, go deep and push forward. 
+ Designing a clone of Cheetah using direct drive actuators is a very broad topic. Studies must be done on the actuators, optimum kinematic structure, gait generation, stability and much more. Each of these requires considerable research effort in itself and has only been possible by the collective effort of many researchers. So concentrate on something that may seem simple and small, go deep and push forward. 
+ 
 *  **Dont reinvent the wheel.**
- This was a lesson that I learned the hard way. Better not to start from scratch, unless your idea is  revolutionary and  novel. Study about and make use of the progress brought about by past researchers.  If some part of your research depends on something that has been previously done, make use of it and build upon it or reuse it. Your time is limited (not just the conference submission deadline), so why spend time reinventing the wheel, when you can invest it to invent time travel.
+ This was a lesson that I learned the hard way. Better not to start from scratch, unless your idea is  revolutionary and  novel. Study about and make use of the progress brought about by past researchers.  If some part of your research depends on something that has been previously done, make use of it and build upon it or reuse it. Your time is limited (not just the conference submission deadline), so why to spend time reinventing the wheel, when you can invest it to invent time travel.
+ 
+ * **You cannot plan a research project explicitly**
+ Coming from a background doing engineering projects, I used to plan all the minute details and had a roadmap for execution. I knew beforehand the progress I would achieve at particular instances of time. It was possible because the path was clear and the results was predictable. Engineering is the often trodden path and research is the one less traveled. ***You may just know the direction but you have to make the path.*** You may be struck with an idea when you least expect it. The results of the research may often come unexpectedly and maybe even in dreams like the discovery structure of Benzene by Kekule. 
+ So in short ***Engineering = predictable*** ,while ***Research = unpredictable.***
+ 
+ <br>
+ <div align="center">
+ 
+ "I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I—
+I took the one less traveled by,
+And that has made all the difference." 
+          - *Robort Frost*
+
+<div>

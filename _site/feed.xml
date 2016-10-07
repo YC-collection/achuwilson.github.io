@@ -6,9 +6,9 @@
 </description>
     <link>http://achuwilson.github.io//</link>
     <atom:link href="http://achuwilson.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 12:05:03 +0530</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 12:05:03 +0530</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Mon, 03 Oct 2016 23:54:41 +0530</pubDate>
+    <lastBuildDate>Mon, 03 Oct 2016 23:54:41 +0530</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>How I did research and wrote a conference paper in under 30 days, while working a full time startup job</title>
@@ -414,12 +414,12 @@ In most cases, scientific research and publication of results takes enormous amo
   &lt;li&gt;&lt;strong&gt;Do not take broad subjects, be specific.&lt;/strong&gt;
  Designing a clone of Cheetah using direct drive actuators is a very broad topic. Studies must be done on the actuators, optimum kinematic structure, gait generation, stability and much more. Each of these require considerable research effort in itself and has been only possible by the collective effort of many researchers. So concentrate on something that may seem simple and small, go deep and push forward.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dont reinvent the wheel.&lt;/strong&gt;
- This was a lesson that I learned the hard way. Better not to start from scratch, unless your idea is  revolutionary and  novel. Study about and make use of the progress brought about by past researchers.  If some part of your research depends on something that has been previously done, make use of it and build upon it or reuse it. Your time is limited (not just the conference submission deadline), so why spend time reinventing the wheel, when you can invent time travel.&lt;/li&gt;
+ This was a lesson that I learned the hard way. Better not to start from scratch, unless your idea is  revolutionary and  novel. Study about and make use of the progress brought about by past researchers.  If some part of your research depends on something that has been previously done, make use of it and build upon it or reuse it. Your time is limited (not just the conference submission deadline), so why spend time reinventing the wheel, when you can invest it to invent time travel.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 16 Sep 2016 00:00:00 +0530</pubDate>
-        <link>http://achuwilson.github.io//blog/2016/09/first_paper/</link>
-        <guid isPermaLink="true">http://achuwilson.github.io//blog/2016/09/first_paper/</guid>
+        <link>http://achuwilson.github.io//blog/2016/09/how_i_wrote_research_paper_in_30_days/</link>
+        <guid isPermaLink="true">http://achuwilson.github.io//blog/2016/09/how_i_wrote_research_paper_in_30_days/</guid>
         
         
         <category>Research</category>
@@ -427,13 +427,163 @@ In most cases, scientific research and publication of results takes enormous amo
       </item>
     
       <item>
-        <title>ICRA-2016: My first exposure to the prestigious International Robotics Conference </title>
+        <title>ICRA-2016: My first exposure to the prestigious IEEE ICRA  </title>
         <description>&lt;p&gt;I had the priceless opportunity to attend the IEEE sponsored International Conference on Robotics and Automation &lt;a href=&quot;https://www.icra2016.org&quot;&gt;ICRA&lt;/a&gt; at Stockholm. I was one of the three member team “Autobots” that won the Humanitarion Robotics Challenge (HRATC).&lt;/p&gt;
 
-&lt;p&gt;The excitement was immense- it was my first conference, it was my first international trip, and moreover, the excitemnt of meeting eminent robotics researchers, attending their talks and seeing the cutting edge research happening worldwide.&lt;/p&gt;
+&lt;p&gt;The excitement was huge- it was my first conference, it was my first international trip, and moreover, the excitement of meeting eminent robotics researchers, attending their talks and seeing the cutting edge research happening worldwide.&lt;/p&gt;
 
 &lt;p&gt;The conference started on May 16th. Somehow, we missed our connection flight from Dubai to Stockhom and ended showing up late. 
- I missed the very first talk I was looking forward to, ‘HUMANS 2.0’, by Dr. Hugh Herr. He is one badass guy who inspires many.&lt;/p&gt;
+ I missed the very first talk I was looking forward to, ‘HUMANS 2.0’, by Dr. Hugh Herr. He is a badass guy who made himself a pair of prosthetic limbs after he lost his limbs in a climbing accident. Moreover, he now uses his limbs for his advantage to climb much higher. I was always looking forward to meet him.&lt;/p&gt;
+
+&lt;p&gt;On the first day, we didn’t enter any sessions since we were bit late. We completed the registration and grabbed ICRA T-Shirt, bag, a proceedings pendrive and 
+ a couple of booklets from the front desk. Straight from there, we went for a quick visit to the exhibition hall, to see all the cool robots being showcased.&lt;/p&gt;
+
+&lt;h2 id=&quot;meeting-cool-robots&quot;&gt;Meeting Cool Robots&lt;/h2&gt;
+
+&lt;p&gt;It was the first time in my life seeing such a large number of awesome robots together in a same room. It doesn’t happen often. we clicked a couple of pics.&lt;/p&gt;
+
+&lt;p&gt;At the entrance, there was Fetch Robotics, we posed for a photo with Fetch and Freight.&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/6/5665/30005407991_dc0d61859a_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/6/5665/30005407991_dc0d61859a_b.jpg&quot; alt=&quot;Lentin Joseph, Fetch,Me, Freight and Chandykunju Alex&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Lentin Joseph, Fetch,Me, Freight and Chandykunju Alex&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;They gave us a toy model of their robots too. Turned out it is a USB drive loaded with the ROS packages to simulate their robots. Pretty cool.&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/9/8397/30004933611_7d3346a72a_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/9/8397/30004933611_7d3346a72a_b.jpg&quot; alt=&quot;Toy Freight, loaded with simulation models&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Toy Freight, loaded with simulation models&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;There was lot more robots, which I have seen on internet. It was like heaven.&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/6/5056/30005349551_24dd5ec523_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/6/5056/30005349551_24dd5ec523_b.jpg&quot; alt=&quot;Baxter&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Baxter&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/9/8113/30007666811_e060fe4d73_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/9/8113/30007666811_e060fe4d73_b.jpg&quot; alt=&quot;YuMi&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;YuMi&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/9/8082/29975787212_8812dc7945_b.jpg.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/9/8082/29975787212_8812dc7945_b.jpg&quot; alt=&quot;Kuka iiwa&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Kuka iiwa&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/6/5489/30088839215_bedfeec998_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/6/5489/30088839215_bedfeec998_b.jpg&quot; alt=&quot;Kuka Youbot&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Kuka Youbot&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/9/8562/30054451946_b57f012d46_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/9/8562/30054451946_b57f012d46_b.jpg&quot; alt=&quot;Kinova&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Kinova&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c3.staticflickr.com/9/8536/29977286472_062b96b41d_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c3.staticflickr.com/9/8536/29977286472_062b96b41d_b.jpg&quot; alt=&quot;REEM from PAL Robotics&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;REEM from PAL Robotics&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;ICRA had three challenges 
+ * Airbus Shopfloor Challenge
+ * Humanitarian Robotics &amp;amp; Automation Technology Challenge
+ * Formal Methods in robotics challenge&lt;/p&gt;
+
+&lt;p&gt;The AIrbus challenge 
+The Humanitarian Robotics and Automation Technology  It was also the day of our challenge, but we didn’t had much to do. The challenge was happening in Poland and the video was streamed to the ICRA location.The code was already uploaded and we had noting else to do except watching patiently the slowly moving robot on the screen. There was issues with gps localization since the atmosphere was cloudy in Poland.&lt;/p&gt;
+
+&lt;p&gt;Once the challenge is over  I left to explore the sessions and other challenges. Notably there was Airbus Shopfloor Challenge&lt;/p&gt;
+
+&lt;p&gt;[pics of arbus]
+  There was a team of smart students from India. Coincidentally they were also staying at the same hostel we were in.
+  [pic of airbus indian team]&lt;/p&gt;
+
+&lt;p&gt;I spend the rest of the day attending paper presentation sessions. It was the first time in my life I am attending such a session and that too at the prestigious ICRA.&lt;/p&gt;
+
+&lt;h2 id=&quot;meeting-the-heros&quot;&gt;Meeting the Heros&lt;/h2&gt;
+
+&lt;p&gt;ICRA also gave me a chance to meet many pioneers in various fields of robotics. The ones whom I have only read about or been following in social-medias. First come Prof. Ousaama Khaatib.&lt;/p&gt;
+
+&lt;p&gt;I first came to know about him during the second year of my undergraduate studies. It was in 2009. I have no formal training in Robotics and was making use of the internet. I stumbled upon MIT Open CourseWare on robotics, lectured by him. I learned the basics of manipulators, Jacobians etc from his lectures. It was long before the recent wave if MOOCs. Recently I was also reading the Springer Handbook of Robotics, of which he is a chief editor. Meeting him at icra was dramatic. I was wandering near the entrance when I spotted him. He was standing along discussing sometimes with a dozen dignitaries, all in coats and suits. He didn’t had an ID card on his neck, why should he. I waited at some distance, checking occasionally whether he is free. I waited for approx 10-15 minutes and maybe he too must have noticed that. The next moment was jaw dropping for me, he turned walking towards me and greeting me a “Hi”. I couldn’t believe my eyes and I stumbled for words. I introduced myself and my company. He was excited and happy to hear that his MIT OCW lectures helped me a lot, and wished me good luck. Finally, I had a selfie with him.&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;max-width: 650px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;https://c1.staticflickr.com/9/8119/29977614112_284c5c335c_b.jpg&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://c1.staticflickr.com/9/8119/29977614112_284c5c335c_b.jpg&quot; alt=&quot;Me with Prof. Oussama Khathib&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Me with Prof. Oussama Khathib&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;The next person I met was Prof. Wolfram Burgard. I came to know about him during my final year of college, when I was trying to implement autonomous navigation using SLAM on my hobby robot project chippu. [About him]
+He was very friendly and was eager to know about our company. We were friends on Facebook and after clicking a selfie, he told me to tag him when I upload it to Facebook.&lt;/p&gt;
+
+&lt;p&gt;We also met Prof Vijay Kumar, the famed drone scientist from UPenn. Although he was busy with so many meetings, he gave us a couple of minutes. Later, after the HRATC results were announced, he himself came to us for congratulating us. 
+It was unbelievable.&lt;/p&gt;
+
+&lt;p&gt;We also met Prof Peter Corke from QUT. He is known for his research in computer vision.&lt;/p&gt;
+
+&lt;p&gt;Meeting Prof Amir Shapiro, who was connected with us on Facebook for a couple of years was a joy.&lt;/p&gt;
+
+&lt;p&gt;We also met Prof. Dinesh Manocha from &lt;em&gt;**&lt;/em&gt;. He was excited to see there are startups doing quality work in Robotics from India. He made us aware of the immense opportunity of industrial robots in China. Coincidentally, the next day news was out that Kuka is being acquired by a Chinese firm. He also invited us to a Chinese school of robotics. Seems that due to the interesting conversation with him, I forgot to click a photo with him.&lt;/p&gt;
+
+&lt;p&gt;Claudio Semini&lt;/p&gt;
+
+&lt;p&gt;Magnus Egerdestdt
+Peter corke&lt;/p&gt;
+
+&lt;p&gt;Raj Madhavan&lt;/p&gt;
+
+&lt;p&gt;We also met Mr. Amit Kumar Pandey from Aldebaran Robotics.&lt;/p&gt;
+
+&lt;p&gt;The next day also, the first surprise for me was from Fetch robotics. We met Melonee Wise. She was very friendly, we talked for a while and we took a selfie
+ [IMG_20160517_101059.jpg]&lt;/p&gt;
+
+&lt;p&gt;In addition to meeting the above mentioned famous people, ICRA also gave a chance to make new friends.&lt;/p&gt;
+
+&lt;h2 id=&quot;paper-presentations-interactive-sessions-and-making-new-friends&quot;&gt;Paper presentations, Interactive sessions and making new friends&lt;/h2&gt;
+
+&lt;p&gt;It was my first time seeing paper presentation sessions. There was three auditoriums where sessions were held in parallel. It was quite difficult to choose which session to attend, since many of them were interesting to me and to make things worse, they were scheduled in parallel. I enjoyed sessions on &lt;strong&gt;**&lt;/strong&gt;**. It was exciting to see the cutting edge research results. Moreover the basic concepts behind most of the research was simple and understandable to me. Even though I couldn’t make much sense of many highly mathematical and purely theoretical papers, the other papers presented could be grasped easily. Previously my thought was that the research papers/presentations were only understood by someone with a masters or P.hD, due to the complex and advanced topics they handle. I believe keeping myself updated by not missing any IEEE  spectrum video Fridays, reading voraciously every IEEE Robotics &amp;amp; Automation Magazine for the last 5 years helped me a lot in understanding them.
+ The sessions gave me a realisation that many of the things that I did as hobby projects could be the basis for writing awesome research papers. It built in me a confidence that, I too can write and publish a research paper.&lt;/p&gt;
+
+&lt;p&gt;The interactive sessions after the sessions were much useful than the sessions as such. I could meet the authors and ask them more about their paper. Notable among them were meeting Will Bosworth,  from MIT Biomimetics lab. He explained me the actuators used in cheetah and junior cheetah. I always had a craving to make my own mini cheetah and meeting him was nice. I also met Gavin Kennelly from UPenn, presenting his work on the direct drive jumping robot Minitaur. He explained me why and how he choose direct drive actuators for his robot. I was not much aware of the research happening around direct drive legged robots even though I was interested in direct drive robot manipulators. My belief was research on direct drive robots happened in 1980s by Asada et al, and it was an abandoned technology. Meeting Gavin rekindled my interest in direct drive robot actuators.&lt;/p&gt;
+
+&lt;p&gt;I also met Zachary Batts from Disney Research. He was very friendly and presented a direct driven jumping robot using off the shelf components.&lt;/p&gt;
+
+&lt;p&gt;Prof Amir Shapiro was also at the interactive session, explaining about his research on grasping on the fly&lt;strong&gt;**&lt;/strong&gt;**&lt;/p&gt;
+
+&lt;p&gt;I also met US army guy. Quarcopter grasp&lt;/p&gt;
+
+&lt;p&gt;Lofaro&lt;/p&gt;
+
+&lt;p&gt;Popovic&lt;/p&gt;
+
+&lt;p&gt;Leif jentoff Right hand robotics,&lt;/p&gt;
+
+&lt;p&gt;And the dinners were nice
+[Pic of dinner]&lt;/p&gt;
+
+&lt;p&gt;In short, attending ICRA was in unforgettable experience. It rekindled my passion for robotics. It inspired me to do more awesome and useful stuff and contribute to the science of robotics. It inspired me to write my first research paper. I will do my best and hopefully will attend the coming ICRA and IROS also.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 30 May 2016 00:00:00 +0530</pubDate>
@@ -442,59 +592,6 @@ In most cases, scientific research and publication of results takes enormous amo
         
         
         <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>HSV Values in OpenCV</title>
-        <description>&lt;h1 id=&quot;hsv-pixel-values-in-opencv&quot;&gt;HSV Pixel values in OpenCV&lt;/h1&gt;
-
-&lt;p&gt;HSV color space is more often used in machine vision owing to its superior performance compared to RGB color space in varying illumination levels. Often thresholding and masking is done in HSV color space. So it is very important to know the HSV values of the color which we want to filter out. HSV color space of  OpenCV is a bit complicated than other software programmes like Gimp, Photoshop etc.So  I have written a small python script to grab frames from a camera, and print the HSV value of the pixel under the cursor&lt;/p&gt;
-
-&lt;p&gt;HSV means Hue-Saturation-Value, where the Hue is the color.Saturation is the greyness, so that a Saturation value near 0 means it is dull or grey looking.And Value is the brightness of the pixel.(For a lot more info about HSV and other color spaces, refer to HSL and HSV on Wikipedia)&lt;/p&gt;
-
-&lt;p&gt;The python code is given below . It prints the HSV values under the cursor into the terminal as well as overlays on the video as text.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# returns HSV value of the pixel under the cursor in a video stream&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# author: achuwilson&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# achuwilson.github.io&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;cv&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;time&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x_co&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y_co&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;on_mouse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_co&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_co&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_EVENT_MOUSEMOVE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x_co&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;y_co&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NamedWindow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;camera&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CaptureFromCAM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;InitFont&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_FONT_HERSHEY_SIMPLEX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;QueryFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Smooth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_BLUR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hsv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CreateImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;thr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CreateImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CvtColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hsv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CV_BGR2HSV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SetMouseCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;camera&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;on_mouse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Get2D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hsv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_co&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_co&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;H:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;      S:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;       V:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PutText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_co&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_co&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;55&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ShowImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;camera&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WaitKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Tue, 14 Feb 2012 00:00:00 +0530</pubDate>
-        <link>http://achuwilson.github.io//blog/2012/02/hsv-values-in-opencv/</link>
-        <guid isPermaLink="true">http://achuwilson.github.io//blog/2012/02/hsv-values-in-opencv/</guid>
-        
-        
-        <category>OpenCV</category>
         
       </item>
     
