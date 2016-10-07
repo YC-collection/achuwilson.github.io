@@ -8,7 +8,7 @@ permalink: /about/
 
 " ***Bitten by a robot bug in teenage, now I often see robots in my dreams.*** "
 
-I graduated from [Govt. Engineering College,Sreekrishnapuram](http://www.gecskp.ac.in) under [University of Calicut](http://www.universityofcalicut.info/) with a Bachelors in Electronics and Communication. Since then I taught myself theories of robotics, computer vision and AI from  Books, Internet, MOOCs and making & breaking robots. I have been working with real robots for the past6 years and I have Co-Founded a company.([Sastra Robotics](www.sastrarobotics.com))
+I graduated from [Govt. Engineering College,Sreekrishnapuram](http://www.gecskp.ac.in) under [University of Calicut](http://www.universityofcalicut.info/) with a Bachelors in Electronics and Communication. Since then I taught myself theories of robotics, computer vision and AI from  Books, Internet, MOOCs and making & breaking robots. I have been working with real robots for the past6 years and I have Co-Founded a company.([Sastra Robotics](http://www.sastrarobotics.com))
 
 I am looking forward for a graduate research program( PhD !!!). My research interests include personal robotics, compliant and direct drive actuation for human safe personal robots, manipulation planning etc. If any of the professors are reading this and is interested in me, I am always ready for a talk.
 
