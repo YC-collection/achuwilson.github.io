@@ -49,7 +49,7 @@ The benefits brought by ICRA were many. I met so many researchers and came to kn
 
 Apart  from meeting awesome people, the best thing ICRA gave me is the following.
 
-{% include image.html url="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" caption="The ICRA Proceedings in USB Drive" href="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" width=650 align="center" %}
+{% include image.html url="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" caption="The ICRA Proceedings in USB Drive" href="https://c3.staticflickr.com/9/8638/29756697346_5594573f25_c.jpg" width=900 align="center" %}
 
 
 Yeah, it is an USB pen drive, which contains data of immense value. It was the first time I had access to this much research papers. It was awesome to go through all of the papers, even though I couldn't understand many of the purely theoretical ones.
@@ -57,7 +57,7 @@ Yeah, it is an USB pen drive, which contains data of immense value. It was the f
 During the conference itself, a vague idea was formed on the research topic I am going to pick up. It was to develop a Direct Drive linear actuator based clone of the MIT Junior Cheetah
 
  
-{% include image.html url="https://biomimetics.mit.edu/sites/default/files/images/Render.jpg" caption="The MIT Junior Cheetah. Image Courtesy: MIT Biomimetrics Lab"  href="https://biomimetics.mit.edu/sites/default/files/images/Render.jpg" width=700 align="center" %}
+{% include image.html url="https://biomimetics.mit.edu/sites/default/files/images/Render.jpg" caption="The MIT Junior Cheetah. Image Courtesy: MIT Biomimetrics Lab"  href="https://biomimetics.mit.edu/sites/default/files/images/Render.jpg" width=900 align="center" %}
 
 Replacing the geared motors in the above figure with antagonistically coupled direct drive linear actuators was my first research idea. It was in line with my interest in direct drive and compliant actuators. I met the following persons at ICRA that fuelled my thoughts in this direction.
 
@@ -205,7 +205,7 @@ Here is a small video with the MR fluid
 
 
 <div align="center">
-<iframe width="700" height="394" src="https://www.youtube.com/embed/9ZZQn46WvLg" frameborder="0" allowfullscreen></iframe>
+<iframe width="900" height="394" src="https://www.youtube.com/embed/9ZZQn46WvLg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br>
@@ -219,26 +219,26 @@ The FEM analysis and CAD design of the MR Linear clutch is completed.
 
 {% include image.html url="/images/cad_clutch.jpg" caption="Rendered CAD model of MR linear clutch."  href="/images/cad_clutch.jpg" width=250 align="center" %}
 
-{% include image.html url="/images/FEM_clutch.jpg" caption="Electromagnetic FEM analysis." href="/images/FEM_clutch.jpg"  width=650 align="center" %}
+{% include image.html url="/images/FEM_clutch.jpg" caption="Electromagnetic FEM analysis." href="/images/FEM_clutch.jpg"  width=900 align="center" %}
 
 ### **-4th September 2016 : Fabricating the parts of Clutch**
 
 The 3D printing of the parts of the clutch is complete.
 
 
-{% include image.html url="https://c5.staticflickr.com/9/8388/29309356476_d7b4660548_h.jpg" caption="3D printed clutch casing." href="https://c5.staticflickr.com/9/8388/29309356476_d7b4660548_h.jpg"  width=650 align="center" %}
+{% include image.html url="https://c5.staticflickr.com/9/8388/29309356476_d7b4660548_h.jpg" caption="3D printed clutch casing." href="https://c5.staticflickr.com/9/8388/29309356476_d7b4660548_h.jpg"  width=900 align="center" %}
 
 
-{% include image.html url="https://c7.staticflickr.com/9/8381/29055571110_74ba98692c_h.jpg" caption="3D printed clutch support." href="https://c7.staticflickr.com/9/8381/29055571110_74ba98692c_h.jpg"  width=650 align="center" %}
+{% include image.html url="https://c7.staticflickr.com/9/8381/29055571110_74ba98692c_h.jpg" caption="3D printed clutch support." href="https://c7.staticflickr.com/9/8381/29055571110_74ba98692c_h.jpg"  width=900 align="center" %}
 
 Now I have to wind the coils
 
 
-{% include image.html url="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg" caption="The Coil ." href="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg"  width=650 align="center" %}
+{% include image.html url="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg" caption="The Coil ." href="https://c2.staticflickr.com/9/8334/29343014345_a5cbf09c2f_h.jpg"  width=900 align="center" %}
 
 The winding of coil over the 3D printed clutch casing is completed. 
 
-{% include image.html url="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" caption="Initial Assembly."  href="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" width=650 align="center" %}
+{% include image.html url="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" caption="Initial Assembly."  href="https://c2.staticflickr.com/9/8572/29264211761_1b61932867_h.jpg" width=900 align="center" %}
 
 
  Now I have to procure a couple of items which includes linear shaft bearings, aluminum rods etc.
@@ -248,23 +248,23 @@ The winding of coil over the 3D printed clutch casing is completed.
 
 Once all the parts are procured, the clutch was assembled and the cavity inside was filled with MR Fluid. Then it had to be tested and characteristics were studied. **Yeah, It worked as I expected and designed**. Finally, I could relax a bit and sleep peacefully.
 
-{% include image.html url="/images/clutch_photo.jpg" caption="The  assembled MR linear clutch." href="/images/clutch_photo.jpg"   width=650 align="center" %}
+{% include image.html url="/images/clutch_photo.jpg" caption="The  assembled MR linear clutch." href="/images/clutch_photo.jpg"   width=900 align="center" %}
 
 
 ### **-8th September 2016 : Assembling the arm**
 
 In order to demonstrate the usefulness and study more about the MR linear clutch, a single degree of freedom robot joint was designed and fabricated. It used the standard 30x30 Aluminum profiles. The arm was driven by a Firgelli linear actuator.
 
-{% include image.html url="/images/firgelli.jpg" href="/images/firgelli.jpg" caption="The  Firgelli linear actuator which is used to power the arm."  width=650 align="center" %}
+{% include image.html url="/images/firgelli.jpg" href="/images/firgelli.jpg" caption="The  Firgelli linear actuator which is used to power the arm."  width=900 align="center" %}
 
 
-{% include image.html url="/images/arm_render_labelled.jpg" href="/images/arm_render_labelled.jpg" caption="The rendered CAD model of the prototype arm."  width=650 align="center" %}
+{% include image.html url="/images/arm_render_labelled.jpg" href="/images/arm_render_labelled.jpg" caption="The rendered CAD model of the prototype arm."  width=900 align="center" %}
 
 
-{% include image.html url="https://c5.staticflickr.com/9/8386/29234935852_1dacb77667_h.jpg" href="https://c5.staticflickr.com/9/8386/29234935852_1dacb77667_h.jpg" caption="Photo of the prototype arm."  width=650 align="center" %}
+{% include image.html url="https://c5.staticflickr.com/9/8386/29234935852_1dacb77667_h.jpg" href="https://c5.staticflickr.com/9/8386/29234935852_1dacb77667_h.jpg" caption="Photo of the prototype arm."  width=900 align="center" %}
 
 
-{% include image.html url="https://c3.staticflickr.com/9/8301/29309434866_92436b37c8_h.jpg" href="https://c3.staticflickr.com/9/8301/29309434866_92436b37c8_h.jpg" caption="Photo of the prototype arm."  width=650 align="center" %}
+{% include image.html url="https://c3.staticflickr.com/9/8301/29309434866_92436b37c8_h.jpg" href="https://c3.staticflickr.com/9/8301/29309434866_92436b37c8_h.jpg" caption="Photo of the prototype arm."  width=900 align="center" %}
 
 
 
@@ -295,7 +295,7 @@ It was then uploaded to the RAS Papercept page
 <br>
 
 <div align="center">
-<iframe width="700" height="394" align ="middle" src="https://www.youtube.com/embed/ES0q4eb1TYo" frameborder="0"  allowfullscreen></iframe>
+<iframe width="900" height="394" align ="middle" src="https://www.youtube.com/embed/ES0q4eb1TYo" frameborder="0"  allowfullscreen></iframe>
 </div>
 <br><br>
 
@@ -325,7 +325,7 @@ In most cases, scientific research and publication of results take an enormous a
  
  <br>
  
- {% include image.html url="/images/rltd.jpg"    width=650 align="center" %}
+ {% include image.html url="/images/rltd.jpg"    width=900 align="center" %}
 
 <br>
  
