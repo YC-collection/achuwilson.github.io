@@ -138,7 +138,7 @@ I choose to use 3D printing to make my the parts of my first prototype. The 3D p
 ### **-3rd to 4 th July 2016 -  Initial success with Idea1**
 
 
-The next step was the electronics assembly. The control system was based on a Teensy board. The coils were driven by  MC33926 motor drivers which had an excellent motor current feedback functionality, which could be used for impedance control of the actuator.I decided to add the Hall sensors at next stage after verifying whether the system works fine.
+The next step was the electronics assembly. The control system was based on a Teensy board. The coils were driven by  MC33926 motor drivers which had an excellent motor current feedback functionality, which could be used for impedance control of the actuator.I decided to add the Hall sensors at next stage after verifying whether the system works fin	e.
 
 Next step was the barebones controller software. Teensy generated 3 phase PWM which was used to drive the coil, and viola, the coil moved at the first attempt itself. The motion was not smooth as expected, but could be made smoother using Hall sensor feedback and a simple PID . The output force was good enough and could be increased by increasing the current. So, I decided to go ahead and figure out the maximum force it can  apply without overheating and external cooling.I found it to be  satisfactory, and with a little bit of cooling, it can provide enough force to make the robot jump like the cheetah. So I went to sleep happily. 
 
@@ -326,11 +326,17 @@ In most cases, scientific research and publication of results take an enormous a
  <br>
  <div align="center">
  
- "I shall be telling this with a sigh
+ ***"I shall be telling this with a sigh
+ 
 Somewhere ages and ages hence:
+
 Two roads diverged in a wood, and I—
+
 I took the one less traveled by,
-And that has made all the difference." 
-          - *Robort Frost*
+
+And that has made all the difference."*** 
+
+          -  *Robort Frost*
+
 
 <div>
