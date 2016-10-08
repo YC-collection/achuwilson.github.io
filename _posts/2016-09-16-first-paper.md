@@ -45,7 +45,7 @@ My constraints are:
 
 ### **-16 to 21st May 2016:  Attending ICRA**
 
-I had the priceless opportunity to attend the IEEE sponsored International Conference on Robotics and Automation [(ICRA)](https://www.icra2016.org) at Stockholm. I was one of the three-member team "Autobots" that won the Humanitarian Robotics Challenge (HRATC).
+I had the priceless opportunity to attend the IEEE sponsored International Conference on Robotics and Automation [(ICRA)](https://www.icra2016.org) at Stockholm. I was one of the three-member team "AUTOBOTS" that won the Humanitarian Robotics Challenge (HRATC). You can read more on my ICRA experiences in my previous blog [post.](http://achuwilson.github.io/blog/2016/05/icra2016/)
 
 The benefits brought by ICRA were many. I met so many researchers and came to know about their work. I could attend a series of workshops by leading roboticists. It was my first time seeing papers being presented. Even though I couldn't make sense of many papers due to my limited knowledge, it was an awesome learning experience. The papers published at ICRA comes from all realms of robotics. Coming from a background more inclined seeing the real-hardware robots, I could classify them into two- purely theoretical/mathematical papers and  papers on 'real robot hardware' . 
 
