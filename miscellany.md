@@ -21,3 +21,7 @@ This is a place where I collect something interesting to read. Probably about li
 * [The days are long but the decades are short](http://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
 * [SHOULD I GET A PH.D.?](http://shouldigetaphd.com/)
 * [The illustrated guide to a Ph.D.](http://matt.might.net/articles/phd-school-in-pictures/)
+* [The Island Where People Forget to Die](http://www.nytimes.com/2012/10/28/magazine/the-island-where-people-forget-to-die.html?pagewanted=all&_r=0)
+* [Prof. Sussman's Reading List](http://aurellem.org/thoughts/html/sussman-reading-list.html)
+* [THE SOCIETY OF MIND - Marvin Minsky](http://aurellem.org/society-of-mind/)
+* [Who Was Ramanujan?](https://backchannel.com/who-was-ramanujan-83b4d5b05665#.iw14l3bl8)
