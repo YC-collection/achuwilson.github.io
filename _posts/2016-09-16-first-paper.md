@@ -281,11 +281,8 @@ More experiments are done with the arm to validate the functionality of MR Linea
 
 Experiments are completed and data collected. Now I have to write the paper. Since I didn't have any previous experience writing an academic paper, it took some time.  I read a couple of articles online and referred IEEE guides and instructions. Instead of starting with the abstract and introduction, I started directly with the content- the things I did and the results obtained. Once it was done, I had to refer more literature to write the introductory pages. Luckily, due to the local festival of Onam, I got holidays for a couple of days and could work on the paper full time. Even then, I could felt the time running out fast. I had to plot the graphs, make diagrams and pictures and it took a lot more time than expected. I worked on the paper for about 4days clocking about 20 hours of work daily. Just a couple of hours before the deadline, I completed the final proofreading and submitted the paper. I was so exhausted after this that I literally slept an entire day after this.
 
-The final paper is embedded below
+I will surely update this post or maybe a follow up post later with the paper if it is accepted. Till then it is the exciting waiting  and suspense time.
 
-<div align="center">
-<iframe src="https://drive.google.com/file/d/0B1VQQE8L69dvOVgxSzF1anV1dzQ/preview" width="780" height="880" align="center"></iframe>
-</div>
 <br>
 <br>
 
