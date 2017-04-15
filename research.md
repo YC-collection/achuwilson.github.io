@@ -28,7 +28,7 @@ This project explored the design, simulation and prototyping of a linear clutch 
 
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
 
-{% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine."  width=640 align="center" %}
+{% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine."  width=640 height=360 align="center" %}
 
 
 
