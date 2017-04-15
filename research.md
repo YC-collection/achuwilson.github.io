@@ -10,7 +10,7 @@ My research interests include agile and dynamic robots and control, quadrupeds, 
 <hr style="clear:both;visibility: hidden;" />  
 
 
-## Research Projects
+# Research Projects
 
 **1. [Magneto-Rheological Linear Clutch for force controlled safe robots.](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)**
 
@@ -23,6 +23,7 @@ This project explored the design, simulation and prototyping of a linear clutch 
 
 
 
+
 **2. Mid air stabilization of jumping quadrupeds using an active spine.**
 
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
@@ -30,16 +31,17 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 <iframe src='//gifs.com/embed/8qyDJj' frameborder='0' scrolling='no' width='640px' height='360px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 
-## Publications
+
+
+
+# Publications
 
 
 **Accepted Conference Publications:**
 
 *Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](https://drive.google.com/open?id=0B1VQQE8L69dvdmtrUjZMck9HOWM))
 
-**Under Review**
 
-NIL
 
 **Working Papers and Works in Progress**
 
@@ -48,7 +50,7 @@ An Active 2DOF spine for cat like mid air stabilization reflex for quadruped rob
 
 
 
-## Patents
+# Patents
 
 Robot Arm for Testing of Touchscreen Applications
 Pub. No.: WO/2017/051263
