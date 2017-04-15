@@ -28,7 +28,7 @@ This project explored the design, simulation and prototyping of a linear clutch 
 
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
 
-<iframe src='//gifs.com/embed/8qyDJj' frameborder='0' scrolling='no' width='640px' height='360px' align="center" style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+{% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine."  width=640 align="center" %
 
 
 
@@ -40,13 +40,17 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 
 **Accepted Conference Publications:**
 
-*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](https://drive.google.com/open?id=0B1VQQE8L69dvdmtrUjZMck9HOWM))
+1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](https://drive.google.com/open?id=0B1VQQE8L69dvdmtrUjZMck9HOWM))
 
 
 
 **Working Papers and Works in Progress**
 
-An Active 2DOF spine for cat like mid air stabilization reflex for quadruped robots
+1.An Active 2DOF spine for cat like mid air stabilization reflex for quadruped robots
+<br>
+2.State estimation of the quadruped in mid air by fusing the proprioceptive sensors ( IMU and vision sensors)
+
+
 
 <br>
 <br>
