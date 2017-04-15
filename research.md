@@ -10,31 +10,32 @@ My research interests include agile and dynamic robots and control, quadrupeds, 
 <hr style="clear:both;visibility: hidden;" />  
 
 
-# Research Projects
+# **Research Projects**
 
 **1. [Magneto-Rheological Linear Clutch for force controlled safe robots.](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)**
 
 This project explored the design, simulation and prototyping of a linear clutch which controls force transmitted from the actuator to the robot links.  The force was coupled through MR fluid and the level of magnetization controlled the amount of force transmitted.
 
 
-{% include image.html url="/images/arm_render_labelled.jpg" href="/images/arm_render_labelled.jpg" caption="The rendered CAD model of the prototype arm."  width=640 align="center" %}
+{% include image.html url="/images/arm_render_labelled.jpg" href="http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days" caption="The rendered CAD model of the prototype arm."  width=640 align="center" %}
 
  This is the first research project I took up and completed in a very short of time, yet accepted for a top tier conference. You can read how I managed to pull this off and what all i studied by working alone in my [blog](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)
 
 
 
 
-**2. Mid air stabilization of jumping quadrupeds using an active spine.**
+**2. [Mid air stabilization of jumping quadrupeds using an active spine.](#)**
 
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
 
-<iframe src='//gifs.com/embed/8qyDJj' frameborder='0' scrolling='no' width='640px' height='360px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<iframe src='//gifs.com/embed/8qyDJj' frameborder='0' scrolling='no' width='640px' height='360px' align="center" style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 
 
 
-
-# Publications
+<br>
+<br>
+# **Publications**
 
 
 **Accepted Conference Publications:**
@@ -47,10 +48,11 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 
 An Active 2DOF spine for cat like mid air stabilization reflex for quadruped robots
 
+<br>
+<br>
 
 
-
-# Patents
+# **Patents**
 
 Robot Arm for Testing of Touchscreen Applications
 Pub. No.: WO/2017/051263
