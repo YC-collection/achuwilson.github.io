@@ -4,7 +4,14 @@ title: Research
 permalink: /research/
 ---
 
-My research interests include agile and dynamic robots and control, quadrupeds, direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation of deformable objects etc
+<br>
+1.[Research Projects](#research-projects)
+2.[Publications](#publications)
+3.[Patents](#patents)
+<br>
+
+My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation of deformable objects etc
+
 
 
 <hr style="clear:both;visibility: hidden;" />  
