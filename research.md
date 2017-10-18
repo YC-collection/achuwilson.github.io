@@ -10,7 +10,7 @@ permalink: /research/
 3.[Patents](#patents)<br>
 <br>
 
-My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation of deformable objects etc
+My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots and  compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation in unstructured environments etc
 
 
 ---
@@ -33,6 +33,12 @@ ___
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
 
 {% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
+
+
+**2. [BlindGrasp -  Grasping using only tactile sensor data.](#)**
+
+
+The grasping capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. This work explores the possibilities in enabling robots to do the same 
 
 ---
 ***
