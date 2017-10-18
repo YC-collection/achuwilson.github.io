@@ -5,9 +5,10 @@ permalink: /research/
 ---
 
 <br>
-1.[Research Projects](#research-projects)<br>
-2.[Publications](#publications)<br>
-3.[Patents](#patents)<br>
+1.[Current Projects](#current-projects)<br>
+2.[Past Projects](#past-projects)<br>
+3.[Publications](#publications)<br>
+4.[Patents](#patents)<br>
 <br>
 
 My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots and  compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation in unstructured environments etc
@@ -16,7 +17,8 @@ My research is fuellled by my own curiousity and passion of robots. My interests
 ---
 ***
 ___
-
+<br>
+<br>
 
 <hr style="clear:both;visibility: hidden;" />  
 
@@ -26,7 +28,6 @@ ___
 ## **Current Projects**
 
 
----
 
 **1. [Mid air stabilization of jumping quadrupeds using an active spine.](#)**
 
@@ -43,9 +44,11 @@ The grasping capabilities of humans are so advanced that we can literally grasp 
 ---
 ***
 ___
+<br>
+<br>
 
 ## **Past Projects**
----
+
 
 **1. [Magneto-Rheological Linear Clutch for force controlled safe robots.](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)**
 
@@ -65,7 +68,7 @@ ___
 
 <br>
 <br>
-# **Publications**
+## **Publications**
 
 
 
@@ -85,8 +88,12 @@ ___
 <br>
 
 
-# **Patents**
+## **Patents**
 
 Robot Arm for Testing of Touchscreen Applications
 Pub. No.: WO/2017/051263
 International Application No.: PCT/IB2016/05329
+
+---
+***
+___
