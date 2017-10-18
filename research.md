@@ -13,6 +13,10 @@ permalink: /research/
 My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots capable of highly dynamic motions, compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation of deformable objects etc
 
 
+---
+***
+___
+
 
 <hr style="clear:both;visibility: hidden;" />  
 
@@ -22,7 +26,7 @@ My research is fuellled by my own curiousity and passion of robots. My interests
 ## **Current Projects**
 
 
-
+---
 
 **1. [Mid air stabilization of jumping quadrupeds using an active spine.](#)**
 
@@ -35,7 +39,7 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 ___
 
 ## **Past Projects**
-
+---
 
 **1. [Magneto-Rheological Linear Clutch for force controlled safe robots.](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)**
 
@@ -47,7 +51,9 @@ This project explored the design, simulation and prototyping of a linear clutch 
  This is the first research project I took up and completed in a very short of time, yet accepted for a top tier conference. You can read how I managed to pull this off and what all i studied by working alone in my [blog](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)
 
 
-
+---
+***
+___
 
 
 
@@ -61,6 +67,9 @@ This project explored the design, simulation and prototyping of a linear clutch 
 1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](http://ieeexplore.ieee.org/document/7989076/))
 
 
+---
+***
+___
 
 
 
