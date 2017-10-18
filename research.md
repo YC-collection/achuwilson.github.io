@@ -45,17 +45,13 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 # **Publications**
 
 
-**Accepted Conference Publications:**
-
-1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](https://drive.google.com/open?id=0B1VQQE8L69dvdmtrUjZMck9HOWM))
 
 
+1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](http://ieeexplore.ieee.org/document/7989076/))
 
-**Working Papers and Works in Progress**
 
-1.An Active 2DOF spine for cat like mid air stabilization reflex for quadruped robots
-<br>
-2.State estimation of the quadruped in mid air by fusing the proprioceptive sensors ( IMU and vision sensors)
+
+
 
 
 
