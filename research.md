@@ -19,6 +19,20 @@ My research is fuellled by my own curiousity and passion of robots. My interests
 
 # **Research Projects**
 
+## **Current Projects**
+
+
+
+
+**1. [Mid air stabilization of jumping quadrupeds using an active spine.](#)**
+
+This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
+
+{% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
+
+## **Past Projects**
+
+
 **1. [Magneto-Rheological Linear Clutch for force controlled safe robots.](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)**
 
 This project explored the design, simulation and prototyping of a linear clutch which controls force transmitted from the actuator to the robot links.  The force was coupled through MR fluid and the level of magnetization controlled the amount of force transmitted.
@@ -29,18 +43,6 @@ This project explored the design, simulation and prototyping of a linear clutch 
  This is the first research project I took up and completed in a very short of time, yet accepted for a top tier conference. You can read how I managed to pull this off and what all i studied by working alone in my [blog](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)
 
 
-
-
-**2. [Mid air stabilization of jumping quadrupeds using an active spine.](#)**
-
-This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done
-
-{% include image.html url="/images/jump.gif"  caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
-
-
-| BlindGrasp | |
-| :---         |     :---    | 
-|   This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done | This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done  | 
 
 
 
