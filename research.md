@@ -52,7 +52,7 @@ ___
 This project explored the design, simulation and prototyping of a linear clutch which controls force transmitted from the actuator to the robot links.  The force was coupled through MR fluid and the level of magnetization controlled the amount of force transmitted.
 
 
-{% include image.html url="/images/arm_render_labelled.jpg" href="http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days" caption="The rendered CAD model of the prototype arm."  width=640 align="center" %}
+{% include image.html url="/images/arm_render_labelled.jpg" href="http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days" caption="The rendered CAD model of the prototype arm."  width=480 align="center" %}
 
  This is the first research project I took up and completed in a very short of time, yet accepted for a top tier conference. You can read how I managed to pull this off and what all i studied by working alone in my [blog](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)
 
