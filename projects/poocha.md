@@ -1,3 +1,13 @@
+---
+title: "Poocha -  Active spine based inertial reorientation for quadrupeds"
+author: achu
+layout: post
+permalink: /projects/poocha
+categories:
+  - Research
+excerpt: "Poocha -  Active spine based inertial reorientation for quadrupeds  ."
+---
+
 #Poocha -  Active spine based inertial reorientation for quadrupeds
 
 
