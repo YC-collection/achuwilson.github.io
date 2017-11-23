@@ -32,7 +32,9 @@ ___
 
 The grasping capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. This work explores the possibilities in enabling robots to do the same 
 <br>
+
 ---
+
 <br>
 **2. [Deep Reinforcement Learning for Robot Control.](#)**
 This work explores the developing new reinforcement learning policies to tackle the problems which are generally solved using the traditional control methodologies which are heavily model based.
