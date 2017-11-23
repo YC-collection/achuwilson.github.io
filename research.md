@@ -26,33 +26,33 @@ ___
 
 
 ## **Current Projects**
-
-
-
-**1. [Poocha - Mid air inertial reorientation of jumping quadrupeds using an active spine.](projects/poocha.md)**
-
-This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done. [Read more](projects/poocha.md)
-
-{% include image.html url="/images/jump.gif" href="../projects/poocha" caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
-
----
-**2. [BlindGrasp -  Grasping using only tactile sensor data.](#)**
+<br>
+**1. [BlindGrasp -  Grasping using only tactile sensor data.](#)**
 
 
 The grasping capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. This work explores the possibilities in enabling robots to do the same 
-
+<br>
 ---
-**3. [Deep Reinforcement Learning for Robot Control.](#)**
+<br>
+**2. [Deep Reinforcement Learning for Robot Control.](#)**
 This work explores the developing new reinforcement learning policies to tackle the problems which are generally solved using the traditional control methodologies which are heavily model based.
 
 
+
 <div align="center">
-<iframe width="900" height="506" src="https://www.youtube.com/embed/httoZpXy4nw" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/httoZpXy4nw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br>
 
 ---
+<br>
+**3. [Poocha - Mid air inertial reorientation of jumping quadrupeds using an active spine.](projects/poocha.md)**
+
+This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done. [Read more](projects/poocha.md)
+
+{% include image.html url="/images/jump.gif" href="../projects/poocha" caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
+
 ***
 ___
 <br>
