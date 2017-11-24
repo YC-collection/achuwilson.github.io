@@ -24,13 +24,15 @@ Tactile sensing in robots are not widely used unlike the vision systems. Probabl
 {% include image.html url="https://farm5.staticflickr.com/4482/37886429841_a45491c7a8_k.jpg" caption="My fingerprint on the Gelsight Gripper " href="https://farm5.staticflickr.com/4482/37886429841_a45491c7a8_k.jpg" width=600 align="center" %}
 
 ## **Project Goals:**
+
 Blindgrasp needs both research into mechanical structure of the Gelsight gripper and the software algorithms to make sense of the data. They are as follows.
 
 ###1. GelSight Finger
+
   The original GelSight gripper consists of a planar sensing area of size 24x18mm. It works well for tasks like estimating hardness of objects, generating pointclouds for object recognition etc. But it will be inefficient for exploring tasks in clutter, since it can only see forces coming from a single direction. In case of human fingerrs, they are  cylindrical in shape and the most sensitive area is the inner semi cylindrical finger tip. So, one of the hardware enhancements would be to model and design a curved Gelsight sensor and gripper. It is best illustrated in the figure below
   
  <br>
-{% include image.html url="/images/gelsight_curved.png" href="../projects/blindgrasp" caption="Tactile exploration in clutter would require a curved GelSight Gripper" width=480  align="center" %}
+{% include image.html url="/images/gelsight_curved.png" href="../projects/blindgrasp" caption="Tactile exploration in clutter would require a curved GelSight Gripper" width=600  align="center" %}
 
 <br>
   
@@ -40,16 +42,19 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
   
 
 ###2. Fingerprint for the Gripper
+
   The original GelSight depends on the features on the object to detect contact. It may fail with featureless smooth surfaces like glass. Adding features like ridges similar to fingerprints on the outer sensing surface of GelSight can help in detecting contact with featureless surfaces. It could also  help in generating vibrations when the finger is moved over textured surfaces. This would be another hardware enhancement
   
   
 ###3. Tactile exploration using Deep Reinforcement Learning
+
    This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.I have set a goal of picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision if it is buried under the marbles. The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
 
    **Yes,there is a hidden coin under the marbles,  the robot has to dig into it, find it and pick it up.**
 
 <br>
-{% include image.html url="/images/kuka_env_marbles.png" href="../projects/blindgrasp" caption="Yes,there is a hidden coin under the marbles,  the robot has to dig into it, find it and pick it up." width=480  align="center" %}
+{% include image.html url="/images/kuka_env_marbles.png" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=600  align="center" %}
+
 
 <br>
 
@@ -60,7 +65,7 @@ I tried to simulate Gelsight when I was right back from the conference. At first
     Following is the  video of the simulated gelsight gripper. The Kuka iiwa has a a WSG 50 gripper fitted with a gelsight sensor. The sensor has a sensing area of 24x24mm and has a resolution of 256x256 pixels in the planar sensing area. It outputs standard ROS 3D pointcloud data, which is displayed in RViz.The simulation was run in my laptop and the pointcloud could be generated at 5Hz
 
  <div align="center">
-<iframe width="480" height="270" src="https://www.youtube.com/embed/httoZpXy4nw" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" src="https://www.youtube.com/embed/IO02smLcDQE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

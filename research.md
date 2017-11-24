@@ -29,13 +29,13 @@ ___
 ## **Current Projects**
 <br>
 
-**1. [BlindGrasp -    Robot grasping using only tactile senses in visually inaccessible environments".](projects/blindgrasp)**
+**1. [BlindGrasp -    Robot grasping using only tactile senses in visually inaccessible environments".](projects/blindgrasp.md)**
 
 
 The tactile capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. We never look into our pockets, yet we can grab them everytime. This work explores how to enable robots to do the same 
 
 <br>
-{% include image.html url="/images/kuka_env_marbles.png" href="../projects/blindgrasp" caption="Yes,there is a hidden coin under the marbles,  the robot has to dig into it, find it and pick it up." width=480  align="center" %}
+{% include image.html url="/images/kuka_env_marbles.png" href="../projects/blindgrasp" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=480  align="center" %}
 
 <br>
 ---
