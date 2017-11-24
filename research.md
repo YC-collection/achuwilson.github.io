@@ -11,14 +11,15 @@ permalink: /research/
 4.[Patents](#patents)<br>
 <br>
 
-My research is fuellled by my own curiousity and passion of robots. My interests spans around robot manipulation, computer vision, machine learning, agile and dynamic robots and control, quadrupeds, direct drive robots and  compliant robot manipulators, novel actuator technologies, personal robots and human robot interaction, manipulation in unstructured environments etc
+My research projects are often fuellled by my own curiousity and passion of robots.
 
+<br>
 
 ---
 ***
 ___
 <br>
-<br>
+
 
 <hr style="clear:both;visibility: hidden;" />  
 
@@ -27,17 +28,23 @@ ___
 
 ## **Current Projects**
 <br>
-**1. [BlindGrasp -  Grasping using only tactile sensor data.](#)**
+
+**1. [BlindGrasp -    Robot grasping using only tactile senses in visually inaccessible environments".](projects/blindgrasp)**
 
 
-The grasping capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. This work explores the possibilities in enabling robots to do the same 
+The tactile capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. We never look into our pockets, yet we can grab them everytime. This work explores how to enable robots to do the same 
+
 <br>
+{% include image.html url="/images/kuka_env_marbles.png" href="../projects/blindgrasp" caption="Yes,there is a hidden coin under the marbles,  the robot has to dig into it, find it and pick it up." width=480  align="center" %}
 
+<br>
 ---
 
 <br>
 **2. [Deep Reinforcement Learning for Robot Control.](#)**
-This work explores the developing new reinforcement learning policies to tackle the problems which are generally solved using the traditional control methodologies which are heavily model based.
+
+
+This work explores the developing new reinforcement learning policies to tackle the problems which are generally solved using the traditional model based control methods.
 
 
 
@@ -54,7 +61,7 @@ This work explores the developing new reinforcement learning policies to tackle 
 This research aims to mimic the reflex action of cats, which enables them to land safely on all the four limbs. A 2DOF active spine enables  the quadruped to rotate the frontal and dorsal parts of the torso. Making usage of the conservation of momentum, the quadruped can orient itself in mid air. As of now, the concept is verified in simulation and the prototyping is being done. [Read more](projects/poocha.md)
 
 {% include image.html url="/images/jump.gif" href="../projects/poocha" caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
-
+<br>
 ***
 ___
 <br>
@@ -72,6 +79,7 @@ This project explored the design, simulation and prototyping of a linear clutch 
 
  This is the first research project I took up and completed in a very short of time, yet accepted for a top tier conference. You can read how I managed to pull this off and what all i studied by working alone in my [blog](http://achuwilson.github.io/blog/2016/09/how_i_wrote_research_paper_in_30_days/)
 
+<br>
 
 ---
 ***
