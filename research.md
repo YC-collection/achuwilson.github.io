@@ -32,8 +32,8 @@ ___
 **1. [BlindGrasp -    Robot grasping using only tactile senses in visually inaccessible environments".](projects/blindgrasp.md)**
 
 
-The tactile capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. We never look into our pockets, yet we can grab them everytime. This work explores how to enable robots to do the same 
-[Read more](projects/blindgrasp.md)
+The tactile capabilities of humans are so advanced that we can literally grasp objects without using our eyes. Consider grabbing a keychain or a coin from your pocket. We never look into our pockets, yet we can grab them everytime. This work explores how to enable robots to do the same. Read more](projects/blindgrasp.md)
+
 <br>
 {% include image.html url="/images/kuka_env_marbles.png" href="../projects/blindgrasp" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=480  align="center" %}
 
@@ -52,6 +52,8 @@ This work explores the developing new reinforcement learning policies to tackle 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/httoZpXy4nw" frameborder="0" allowfullscreen></iframe>
 </div>
 
+The above video shows a kuka robot trying to reach the position of the green ball. The environment accepts joint angles as input and returns a reward depending on the distance between the end -effector and the target green ball. SInce the input space is continuous, a DDPG agent is used for training.
+
 <br>
 
 ---
@@ -62,6 +64,7 @@ This research aims to mimic the reflex action of cats, which enables them to lan
 
 {% include image.html url="/images/jump.gif" href="../projects/poocha" caption="Simulation of the mid air stabilization using active spine." width=480  align="center" %}
 <br>
+
 ***
 ___
 <br>

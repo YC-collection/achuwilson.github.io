@@ -53,7 +53,7 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
   
 **3. Tactile exploration using Deep Reinforcement Learning**
 
-   This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.I have set a goal of picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision if it is buried under the marbles. The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
+   This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The goal is to  picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. 
 
 
 
@@ -62,14 +62,15 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
 
 
 <br>
-
+The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
+<br>
 
 ## Update-1 : Nov-22-2017: Simulation of the original Planar Gelsight Sensor
 
-I tried to simulate Gelsight when I was right back from the conference. At first I tried to simulate it in Drake as directed by Greg, but installing Drake and getting it working was a real mess. So, I began trying in Gazebo. But that also did not turn out well since I could not get the contact sensing to work reliably. Then I gave a chance to the physics simulator Bullet. It had softbody simulation, which I thought would be useful for simulating the elastomer of Gelsight. But it turned out that the softbody simulation was a basic and needed much more development. So, I indirectly modelled Gelsight using the raytest functionality in bullet. It returns the depth at which a ray makes contact with a solid body.
+I tried to simulate Gelsight when I was right back from the conference. The initial approach was to simulate it in Drake as directed by Greg, but installing Drake and getting it working was a real mess. So, I began trying in Gazebo. But that also did not turn out well since I could not get the contact sensing to work reliably. Then I tried the physics simulator Bullet. It had softbody simulation, which I thought would be useful for simulating the elastomer of GelSight. But it turned out that the softbody simulation was a basic and needed much more development. So, I indirectly modelled Gelsight using the raytest functionality in bullet. It returns the depth at which a ray makes contact with a solid body.
 
  
- Following is the  video of the simulated gelsight gripper. The Kuka iiwa has a a WSG 50 gripper fitted with a gelsight sensor. The sensor has a sensing area of 24x24mm and has a resolution of 256x256 pixels in the planar sensing area. It outputs standard ROS 3D pointcloud data, which is displayed in RViz.The simulation was run in my laptop and the pointcloud could be generated at 5Hz
+ Following is the  video of the simulated gelsight gripper. The Kuka iiwa has a WSG 50 gripper fitted with a gelsight sensor. The sensor has a sensing area of 24x24mm and has a resolution of 256x256 pixels in the planar sensing area. It outputs standard ROS 3D pointcloud data, which is displayed in RViz.The simulation was run in my laptop and the pointcloud could be generated at 5Hz
 
  <div align="center">
 <iframe width="640" height="480" src="https://www.youtube.com/embed/IO02smLcDQE" frameborder="0" allowfullscreen></iframe>
