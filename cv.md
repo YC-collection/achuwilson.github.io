@@ -5,9 +5,7 @@ permalink: /cv/
 ---
 
 
-Please contact me for the latest version
-
-
+<div align="center">
 <iframe src="/achu_cv.pdf" width="780" height="880"></iframe>
-
+</div>
 
