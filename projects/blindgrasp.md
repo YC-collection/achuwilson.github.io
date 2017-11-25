@@ -55,14 +55,14 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
 
    This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The goal is to  picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. 
 
-
+<br>
+The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
 
 <br>
 {% include image.html url="/images/kuka_env_marbles.png" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=600  align="center" %}
 
 
-<br>
-The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
+
 <br>
 
 ## Update-1 : Nov-22-2017: Simulation of the original Planar Gelsight Sensor
@@ -75,6 +75,10 @@ I tried to simulate Gelsight when I was right back from the conference. The init
  <div align="center">
 <iframe width="640" height="480" src="https://www.youtube.com/embed/IO02smLcDQE" frameborder="0" allowfullscreen></iframe>
 </div>
+
+The next steps would be to model, simulate and prototype the curved Gelsight gripper. At the same time, I have to strengthen my reinforcement learning skills. Follow me on twitter for updates.
+
+
 
 
 
