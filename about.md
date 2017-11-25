@@ -12,7 +12,6 @@ I graduated from [Govt. Engineering College,Sreekrishnapuram](http://www.gecskp.
 
 **I am looking forward for a graduate research program**, so that I can push my limits and contribute to the advancement of robotics. My research interests include personal robotics, compliant and direct drive actuation for human safe personal robots, manipulation planning, reinforcement learning, tactile sensing etc
 
-I spend most of the time forcing some stubborn robot to do something meaningful. When I am not with the robots, you can find me reading something or exploring new places.  My reading list spans from technical journals and magazines to philosophy and life. In short I am a voracious reader.
 
  I am also a  ["good procrastinator"](http://paulgraham.com/procrastination.html), who puts away less important stuffs of life for the bigger and challenging ones. Challenging always fascinated me. I was one among the three member team Autobots that **won the 2016 ICRA Humanitarian Robotics Challenge (HRATC) at Stockholm**. When I was earlier rejected from my favourite PhD programs due to the lack of research experience, I took it as a challenge to do research on my own and get published. Taking it as a challenge, **I could do research on my own, even without any previous publishing experience or even an advisor, I managed to publish my first paper in one of the top tier robotics conference, at ICRA-2017**. See more of the interesting challenges I am working on right now in the [Research](http://achuwilson.github.io/research/) page
  
