@@ -34,7 +34,7 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
 <br>
 **1. GelSight Finger**
 
-  The original GelSight gripper consists of a planar sensing area of size 24x18mm. It works well for tasks like estimating hardness of objects, generating pointclouds for object recognition etc. But it will be inefficient for exploring tasks in clutter, since it can only see forces coming from a single direction. In case of human fingerrs, they are  cylindrical in shape and the most sensitive area is the inner semi cylindrical finger tip. So, one of the hardware enhancements would be to model and design a curved Gelsight sensor and gripper. It is best illustrated in the figure below
+  The original GelSight gripper consists of a planar sensing area of size 24x18mm. It works well for tasks like estimating hardness of objects, generating pointclouds for object recognition etc. But it will be inefficient for exploring tasks in clutter, since it can only see forces coming from a single direction. The traditional two finger gripper is good for grasping tasks, but would perform poor in exploring through the clutter because of its non-streamline shape. In case of human fingerrs, they are  oval-cylindrical in shape with the most sensitive area as the inner flattened surface. So, one of the hardware enhancements would be to model and design a curved Gelsight sensor and gripper. It is best illustrated in the figure below
   
  <br>
 {% include image.html url="/images/gelsight_curved.png" href="../projects/blindgrasp" caption="Tactile exploration in clutter would require a curved GelSight Gripper" width=600  align="center" %}
@@ -46,12 +46,9 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
   <br>
   
 
-**2. Fingerprint for the Gripper**
-
-  The original GelSight depends on the features on the object to detect contact. It may fail with featureless smooth surfaces like glass. Adding features like ridges similar to fingerprints on the outer sensing surface of GelSight can help in detecting contact with featureless surfaces. It could also  help in generating vibrations when the finger is moved over textured surfaces. This would be another hardware enhancement
   
   
-**3. Tactile exploration using Deep Reinforcement Learning**
+**2. Tactile exploration using Deep Reinforcement Learning**
 
    This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The goal is to  picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. 
 
