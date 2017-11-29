@@ -97,7 +97,7 @@ ___
 
 
 
-1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf link](http://ieeexplore.ieee.org/document/7989076/))
+1.*Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots*., IEEE International Conference on Robotics & Automation (ICRA)-2017, Singapore ([pdf ](http://achuwilson.github.io/papers/MR_clutch_ICRA17.pdf), [video](https://www.youtube.com/watch?v=ES0q4eb1TYo)
 
 
 ---

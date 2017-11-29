@@ -283,7 +283,7 @@ Experiments are completed and data collected. Now I have to write the paper. Sin
 
 I will surely update this post or maybe a follow up post later with the paper if it is accepted. Till then it is the exciting waiting  and suspense time.
 
--The final paper is available [here]()
+-The final paper is available [here](http://achuwilson.github.io/papers/MR_clutch_ICRA17.pdf)
 
 <br>
 <br>
