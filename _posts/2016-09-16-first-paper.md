@@ -283,12 +283,7 @@ Experiments are completed and data collected. Now I have to write the paper. Sin
 
 I will surely update this post or maybe a follow up post later with the paper if it is accepted. Till then it is the exciting waiting  and suspense time.
 
--The final paper is embedded below
-
-  
- <div align="center">
- <iframe src="https://drive.google.com/file/d/0B1VQQE8L69dvOVgxSzF1anV1dzQ/preview" width="780" height="880" align="center"></iframe>
- </div>
+-The final paper is available [here]()
 
 <br>
 <br>
