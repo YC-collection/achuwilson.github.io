@@ -31,16 +31,13 @@ I came to know about Gelsight at ICRA 2017 from a couple of MIT PhD students( We
 
 Blindgrasp needs both research into mechanical structure of the Gelsight gripper and the software algorithms to make sense of the data. The following are the two areas of concentration.
 <br>
+<br>
 **1. GelSight Finger**
 
-  The original GelSight gripper consists of a planar sensing area of size 24x18mm. It works well for tasks like estimating hardness of objects, generating pointclouds for object recognition etc. But it will be inefficient for exploring tasks in clutter, since it can only see forces coming from a single direction. The traditional two finger gripper is good for grasping tasks, but would perform poor in exploring through the clutter because of its non-streamline shape. In case of human fingerrs, they are  elliptical cylinder in shape with the most sensitive area as the inner flattened surface. So, one of the hardware enhancements would be to model and design a curved Gelsight sensor and gripper. It is best illustrated in the figure below
-  
+The original GelSight gripper consists of a planar sensing area of size 24x18mm. It works well for tasks like estimating hardness of objects, generating pointclouds for object recognition etc. But will be inefficient for exploring tasks in clutter, since it can only see forces coming from the normal direction. The traditional two finger gripper is good for grasping tasks, but would perform poor in exploring through the clutter because of its non-streamline shape. In case of human fingerrs, they are  elliptical cylinder in shape with the most sensitive area as the inner flattened surface. So, one of the hardware enhancements would be to model and design a curved Gelsight sensor and gripper. It is best illustrated in the figure below
  <br>
 {% include image.html url="/images/gelsight_curved.png" href="../projects/blindgrasp" caption="Tactile exploration in clutter would require a curved GelSight Gripper" width=600  align="center" %}
-
 <br>
-  
-
   In addition to the mechanical design,this would also include non linear remapping of the touch information on the curved surface onto the planar camera sensor 
   <br>
   
@@ -49,13 +46,13 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
   
 **2. Tactile exploration and non-prehensile manipulation using Deep Reinforcement Learning**
 
-   This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The initial challenge that I have set myself is to pick up a coin from a tray filled with small spherical marbles.  Then,  the agent will have to learn to dig through the marbles in search of the coins
+   This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.
    
    Once the robot is able to explore the environment and successfully reach the goal object, the next phase of research should focus on how to pick it up, without losing contact and thereby losing the positional information of the object. This would also involve development of novel physics based grasp planning algorithms involving non-prehensile manipulation. 
    
 <br>
 
-## **Simulation Environment **
+## **Simulation Environment**
 
 As I am not having access to a good quality manipulator and the tactile sensors, the first phase is planned to be done entirely in simulation.The Bullet physics engine is chosen as it provides the best customizability and functionality. The simulation environment consists  of a Kuka iiwa manipulator, a high resolution tactile sensor fitted to the gripper and a tray filled with small spherical marbles. The tray is also having a couple of gold coins buried under the small marbles.
 <br>
