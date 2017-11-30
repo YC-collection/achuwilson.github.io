@@ -29,8 +29,7 @@ I came to know about Gelsight at ICRA 2017 from a couple of MIT PhD students( We
 
 ## **Research Areas:**
 
-Blindgrasp needs both research into mechanical structure of the Gelsight gripper and the software algorithms to make sense of the data. They are as follows.
-
+Blindgrasp needs both research into mechanical structure of the Gelsight gripper and the software algorithms to make sense of the data. The following are the two areas of concentration.
 <br>
 **1. GelSight Finger**
 
@@ -48,16 +47,21 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
 
   
   
-**2. Tactile exploration using Deep Reinforcement Learning**
+**2. Tactile exploration and non-prehensile manipulation using Deep Reinforcement Learning**
 
-   This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The initial challenge that I have set myself is to pick up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. I
-
+   This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The initial challenge that I have set myself is to pick up a coin from a tray filled with small spherical marbles.  Then,  the agent will have to learn to dig through the marbles in search of the coins
+   
+   Once the robot is able to explore the environment and successfully reach the goal object, the next phase of research should focus on how to pick it up, without losing contact and thereby losing the positional information of the object. This would also involve development of novel physics based grasp planning algorithms involving non-prehensile manipulation. 
+   
 <br>
- The agent will have to explore the environment for the goal coin by moving the robot's end effector and digging through the marbles.
- 
+
+## **Simulation Environment **
+
+As I am not having access to a good quality manipulator and the tactile sensors, the first phase is planned to be done entirely in simulation.The Bullet physics engine is chosen as it provides the best customizability and functionality. The simulation environment consists  of a Kuka iiwa manipulator, a high resolution tactile sensor fitted to the gripper and a tray filled with small spherical marbles. The tray is also having a couple of gold coins buried under the small marbles.
+<br>
 {% include image.html url="/images/kuka_env_marbles.png" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=600  align="center" %}
-
-
+<br>
+ This would be a good scenario to bring out the strengths of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. The robot will have to dig /poke its tactile finger into the marbles, move around and explore till it gets in contact with the gold coin
 
 <br>
 
