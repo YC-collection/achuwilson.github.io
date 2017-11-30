@@ -14,10 +14,10 @@ excerpt: "BlindGrasp -   Robot grasping using only tactile senses in visually in
 ---
 
 
-The sense of touch is one of the most powerful and amazing senses that humans have. It provides rich information about the environment that we make contact with.  It is so powerfull that the visually impaired people mainly explores the world using the sense of touch. Even for the normal people, the sense of touch is deeply intewined with our brain that we often use it unconsiously. For example, we would not look into our pocket before grabbing a coin or key from it. Still, everytime, we can succesfully do it. We can succesfull grasp items from visually inaccessible areas using the sense of touch only
+The sense of touch is one of the most powerful and amazing senses that humans have. It provides rich information about the environment that we make contact with.  It is so powerfull that the visually impaired people mainly explores the world using the sense of touch. Deaf-Blind people trained in Tadoma can even do tactile lipreading, by picking up vibrations from the lips and throat using their fingers. Even the normal humans depends on tactile sensing a lot unconsciously for manipulation and grasping in visually inaccessible environments. One can grab a coin or key from their pocket just by tactile senses alone,  without even looking into it.
 
 
-**Project BlindGrasp aims to explore the usage of tactile sensing for grasping in unstructured and visually inaccessible environments**. 
+**Project BlindGrasp aims to bring similar skills - human like tactile sensing based graping to robots**. 
 
 Tactile sensing in robots are not widely used unlike the vision systems. Probably too much dependance on the vision systems may have made us ignore the rich information provided by the tactile sensing.The unavailability of high resoultion tactile sensors may also have been a reason for this. Most of the approaches on using tactile sensing are just confined to the detection of slip or quality of grasp, estimating mechanical properties like hardness of objects etc. 
 
@@ -27,7 +27,7 @@ I came to know about Gelsight at ICRA 2017 from a couple of MIT PhD students( We
 
 {% include image.html url="https://farm5.staticflickr.com/4482/37886429841_a45491c7a8_k.jpg" caption="My fingerprint on the Gelsight Gripper " href="https://farm5.staticflickr.com/4482/37886429841_a45491c7a8_k.jpg" width=600 align="center" %}
 
-## **Project Goals:**
+## **Research Areas:**
 
 Blindgrasp needs both research into mechanical structure of the Gelsight gripper and the software algorithms to make sense of the data. They are as follows.
 
@@ -50,12 +50,11 @@ Blindgrasp needs both research into mechanical structure of the Gelsight gripper
   
 **2. Tactile exploration using Deep Reinforcement Learning**
 
-   This involves developing a tactile exploration policy for the control of a manipulator. The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The goal is to  picking up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. 
+   This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.The initial challenge that I have set myself is to pick up a coin from a tray filled with small spherical marbles. This would be a good scenario to justify the usage of tactile exploration, as it would be impossible to detect the coin with vision when it is buried under the marbles. I
 
 <br>
-The initial approach would be to use a deep reinforcement learning based agent to pick up the coin. The agent will have to explore by moving the robot's end effector and digging through the marbles. It will be given positive rewards when it comes in contact with the coin and a final grand reward when it picks up the coin. This would also involve developing of new reinforcement agents which will work well with sparse rewards since the exploration phase would be often having zero rewards. 
-
-<br>
+ The agent will have to explore the environment for the goal coin by moving the robot's end effector and digging through the marbles.
+ 
 {% include image.html url="/images/kuka_env_marbles.png" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=600  align="center" %}
 
 
@@ -68,12 +67,12 @@ I tried to simulate Gelsight when I was right back from the conference. The init
 
  
  Following is the  video of the simulated gelsight gripper. The Kuka iiwa has a WSG 50 gripper fitted with a gelsight sensor. The sensor has a sensing area of 24x24mm and has a resolution of 256x256 pixels in the planar sensing area. It outputs standard ROS 3D pointcloud data, which is displayed in RViz.The simulation was run in my laptop and the pointcloud could be generated at 5Hz
-
+<br>
  <div align="center">
 <iframe width="640" height="480" src="https://www.youtube.com/embed/IO02smLcDQE" frameborder="0" allowfullscreen></iframe>
 </div>
-
-The next steps would be to model, simulate and prototype the curved Gelsight gripper. At the same time, I have to strengthen my reinforcement learning skills. Follow me on twitter for updates.
+<br>
+The next steps would be to model, simulate and prototype the curved Gelsight gripper. At the same time, I have to strengthen my reinforcement learning skills. Follow me on [Twitter](https://twitter.com/achuwilson) or visit later for updates.
 
 
 
