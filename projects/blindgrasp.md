@@ -54,7 +54,7 @@ The original GelSight gripper consists of a planar sensing area of size 24x18mm.
 
 ## **Simulation Environment**
 
-As I am not having access to a good quality manipulator and the tactile sensors, the first phase is planned to be done entirely in simulation.The Bullet physics engine is chosen as it provides the best customizability and functionality. The simulation environment consists  of a Kuka iiwa manipulator, a high resolution tactile sensor fitted to the gripper and a tray filled with small spherical marbles. The tray is also having a couple of gold coins buried under the small marbles.
+As I am not having access to a good quality manipulator and the tactile sensors, the first phase is planned to be done entirely in simulation.The Bullet physics engine is chosen as it provides the best customizability and functionality. The simulation environment consists  of a Kuka iiwa manipulator, a high resolution tactile sensor fitted to the gripper and a tray filled with small spherical marbles. The tray is also having a couple of gold coins buried under the small marbles. The task for the robot would be to explore the tray of marbles and pick up the coin, using tactile senses only. 
 <br>
 {% include image.html url="/images/kuka_env_marbles.png" caption="Yes, there is a hidden gold coin under the marbles,  the robot has to dig through it, find the coin and pick it up." width=600  align="center" %}
 <br>
