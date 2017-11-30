@@ -17,7 +17,7 @@ excerpt: "BlindGrasp -   Robot grasping using only tactile senses in visually in
 The sense of touch is one of the most powerful and amazing senses that humans have. It provides rich information about the environment that we make contact with.  It is so powerfull that the visually impaired people mainly explores the world using the sense of touch. Deaf-Blind people trained in Tadoma can even do tactile lipreading, by picking up vibrations from the lips and throat using their fingers. Even the normal humans depends on tactile sensing a lot unconsciously for manipulation and grasping in visually inaccessible environments. One can grab a coin or key from their pocket just by tactile senses alone,  without even looking into it.
 
 
-**Project BlindGrasp aims to bring similar skills - human like tactile sensing based graping to robots**. 
+**Project BlindGrasp aims to bring similar skills - human like tactile sensing based grasping to robots**. 
 
 Tactile sensing in robots are not widely used unlike the vision systems. Probably too much dependance on the vision systems may have made us ignore the rich information provided by the tactile sensing.The unavailability of high resoultion tactile sensors may also have been a reason for this. Most of the approaches on using tactile sensing are just confined to the detection of slip or quality of grasp, estimating mechanical properties like hardness of objects etc. 
 
