@@ -38,6 +38,8 @@ Past research attributes the cat reflex to law of conservation of momentem.  Fle
 
 Depending on the cat's flexibility and initial angular momentum, if any, the cat may need to perform steps two and three repeatedly in order to complete a full 180° rotation.
 
+Past works on using active spine in legged robots specialized rotation in  the axis perpendicular to the saggital plane and was aimed at improving the gait.  My research focusess on rotation in the axis perpendicular to the transverse plane. I developed an inertial reoreintation controller. It controls the extension and tucking in of the quadruped limbs, so that the cranial and caudal part rotates with different velocities owing to the conserved momentum. The controller thus uses the inertia of the quadruped to reorient itself.
+
 
 Since the control system is verified in simulation, Now I have to make the actual robot. I decided to take the 3D printing way. It is still ongoing. As of now, following are some photos.It uses an MPU6050 accelerometer for sensing its orientation and a Teensy 3 to control. The motors are the lightweight, SG90 micro servo. Following are some photos of the first version. (Note : it does not have the flexible spine now. I am still working on that).
 <br>
