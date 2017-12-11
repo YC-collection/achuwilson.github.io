@@ -42,9 +42,13 @@ The original GelSight gripper consists of a planar sensing area of size 24x18mm.
   <br>
   
 
+**2. Fingerprint like features**
+
+The original GelSight depends on the features on the object to generate the tactile data from the camera. It may fail with featureless smooth surfaces like glass. Adding features like ridges similar to human fingerprints on the outer sensing surface of GelSight can help in detecting contact with featureless surfaces. It could also help in generating vibrations when the finger is moved over surfaces, giving details on the surface quality and texture of the object.
+
+<br>
   
-  
-**2. Tactile exploration and non-prehensile manipulation using Deep Reinforcement Learning**
+**3. Tactile exploration and non-prehensile manipulation using Deep Reinforcement Learning**
 
    This involves developing a tactile exploration policy for the control of a manipulator. The novel method will be to use a deep reinforcement learning agent to let the robot learn how to explore and reach the goal object. The agent will be given positive rewards when it makes contact with the goal object. This would also involve research into new reinforcement learning agents which can learn with high dimensional data and sparse rewards.The exploration policy would generate control commands (joint torques) for the manipulator based on tactile feedback such that it can search through a cluttered environment and pick up the desired object.
    
