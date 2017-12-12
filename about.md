@@ -17,7 +17,9 @@ Often I get myself involved with some self inspired, curiosity driven research p
  
  
  <div align="center">
+ 
 " *Be unique, stay away from the crowd, stay close to Robots* "
+
 </div>
 
 {% include image.html url="/images/icra_reem.jpg" caption="Thumbs up with PAL Robotics REEM at ICRA 2016,Stockholm." width=580 align="center" %}
